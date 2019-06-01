@@ -17,5 +17,5 @@ import ReduxMe_macOS
 
 extension ReduxMe.Stub {
 
-    struct Action: ReduxMeActionProtocol, Equatable {}
+    final class Action: NSObject, ReduxMeActionProtocol {}
 }

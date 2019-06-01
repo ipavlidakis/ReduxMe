@@ -10,7 +10,7 @@ import Foundation
 
 extension ReduxMe {
 
-    class Store<State: ReduxMeStateProtocol> {
+    open class Store<State: ReduxMeStateProtocol>: ReduxMeActionDispatching, ReduxMeStoreProtocol {
 
         private let reducer: ReduxMeReducerProtocol
         private let serialActionDispatchQueue: ReduxMeSerialDispatchQueueing
@@ -19,7 +19,7 @@ extension ReduxMe {
         private var middleware: [ReduxMeMiddlewareProtocol]
         private var listeners: [ReduxMeListenerProtocol]
 
-        var state: State {
+        private(set) open var state: State {
             didSet {
                 mainThreadDispatcher.async {
                     [weak self] in
@@ -31,12 +31,13 @@ extension ReduxMe {
             }
         }
 
-        init(state: State,
-             reducers: [ReduxMeReducerProtocol],
-             middleware: [ReduxMeMiddlewareProtocol] = [],
-             listeners: [ReduxMeListenerProtocol] = [],
-             serialActionDispatchQueue: ReduxMeSerialDispatchQueueing,
-             mainThreadDispatcher: ReduxMeDispatching = ReduxMe.Dispatcher(queue: .main)) {
+        public init(
+            state: State,
+            reducers: [ReduxMeReducerProtocol],
+            middleware: [ReduxMeMiddlewareProtocol] = [],
+            listeners: [ReduxMeListenerProtocol] = [],
+            serialActionDispatchQueue: ReduxMeSerialDispatchQueueing,
+            mainThreadDispatcher: ReduxMeDispatching = ReduxMe.Dispatcher(queue: .main)) {
 
             self.reducer = ReduxMe.CompoundReducer(reducers: reducers)
             self.middleware = middleware
@@ -46,47 +47,41 @@ extension ReduxMe {
 
             self.state = state
         }
-    }
-}
 
-extension ReduxMe.Store: ReduxMeActionDispatching {
-    
-    func dispatch(_ action: ReduxMeActionProtocol) {
-        
-        serialActionDispatchQueue.enqueue { [weak self] in
-            
-            guard let self = self else { return }
-            
-            let initialState = self.state
-            
-            self.middleware.forEach { $0.apply(initialState, action) }
+        open func dispatch(_ action: ReduxMeActionProtocol) {
 
-            self.state = self.reducer.reduce(initialState, action)
+            serialActionDispatchQueue.enqueue { [weak self] in
+
+                guard let self = self else { return }
+
+                let initialState = self.state
+
+                self.middleware.forEach { $0.apply(initialState, action) }
+
+                self.state = self.reducer.reduce(initialState, action)
+            }
         }
-    }
-}
 
-extension ReduxMe.Store: ReduxMeStoreProtocol {
+        open func subscribe(
+            _ listener: ReduxMeListenerProtocol) -> ReduxMe.UnsubscribeListener {
 
-    func subscribe(
-        _ listener: ReduxMeListenerProtocol) -> ReduxMe.UnsubscribeListener {
+            listeners.append(listener)
 
-        listeners.append(listener)
+            listener.stateUpdated()
 
-        listener.stateUpdated()
+            return { [weak self] in
 
-        return { [weak self] in
+                guard let self = `self` else { return }
 
-            guard let self = `self` else { return }
-
-            self.listeners = self.listeners
-                .filter { $0.identifier != listener.identifier }
+                self.listeners = self.listeners
+                    .filter { $0.identifier != listener.identifier }
+            }
         }
-    }
 
-    func subscribe(
-        _ middleware: ReduxMeMiddlewareProtocol) {
+        open func subscribe(
+            _ middleware: ReduxMeMiddlewareProtocol) {
 
-        self.middleware.append(middleware)
+            self.middleware.append(middleware)
+        }
     }
 }

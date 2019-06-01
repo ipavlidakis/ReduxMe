@@ -8,4 +8,4 @@
 
 import Foundation
 
-protocol ReduxMeSubstateProtocol {}
+public protocol ReduxMeSubstateProtocol {}

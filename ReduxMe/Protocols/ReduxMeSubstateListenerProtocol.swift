@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ReduxMeSubstateListenerProtocol {
+public protocol ReduxMeSubstateListenerProtocol {
 
     associatedtype Substate: ReduxMeSubstateProtocol
 

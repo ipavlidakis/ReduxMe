@@ -7,8 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4016146C22A2D3D600C6A11E /* ReduxMe_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016146B22A2D3D600C6A11E /* ReduxMe_Tests.swift */; };
 		4016146E22A2D3D600C6A11E /* libReduxMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403EC65722A2B452003165D3 /* libReduxMe.a */; };
+		4016147922A2D4BE00C6A11E /* RESDisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147622A2D4BE00C6A11E /* RESDisposeBagTests.swift */; };
+		4016147D22A2D53800C6A11E /* ReduxMeStub+Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147C22A2D53800C6A11E /* ReduxMeStub+Disposable.swift */; };
+		4016147F22A2D55900C6A11E /* ReduxMeStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147E22A2D55900C6A11E /* ReduxMeStub.swift */; };
+		4016148222A2D64A00C6A11E /* ReduxMeStub+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148122A2D64A00C6A11E /* ReduxMeStub+Store.swift */; };
+		4016148422A2D75200C6A11E /* ReduxMeStub+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148322A2D75200C6A11E /* ReduxMeStub+State.swift */; };
+		4016148622A2D91700C6A11E /* ReduxMeStub+Substate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148522A2D91700C6A11E /* ReduxMeStub+Substate.swift */; };
+		4016148922A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148822A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift */; };
+		4016148B22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148A22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift */; };
+		4016148D22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148C22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift */; };
+		4016148E22A2DF8900C6A11E /* RESObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147522A2D4BE00C6A11E /* RESObservableTests.swift */; };
+		4016149022A2DFBA00C6A11E /* ReduxMeStub+Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148F22A2DFBA00C6A11E /* ReduxMeStub+Listener.swift */; };
+		4016149222A2DFC700C6A11E /* ReduxMeStub+Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149122A2DFC700C6A11E /* ReduxMeStub+Middleware.swift */; };
+		4016149422A2DFD500C6A11E /* ReduxMeStub+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149322A2DFD500C6A11E /* ReduxMeStub+Action.swift */; };
+		4016149522A2E14100C6A11E /* RESReduxStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147722A2D4BE00C6A11E /* RESReduxStoreTests.swift */; };
+		4016149722A2E22200C6A11E /* ReduxMeStub+Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149622A2E22200C6A11E /* ReduxMeStub+Reducer.swift */; };
 		403EC65B22A2B452003165D3 /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC65A22A2B452003165D3 /* ReduxMe.swift */; };
 		403EC68222A2B47C003165D3 /* ReduxMeSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */; };
 		403EC68322A2B47C003165D3 /* ReduxMeActionDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66522A2B47A003165D3 /* ReduxMeActionDispatching.swift */; };
@@ -56,8 +70,22 @@
 
 /* Begin PBXFileReference section */
 		4016146922A2D3D600C6A11E /* ReduxMe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReduxMe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4016146B22A2D3D600C6A11E /* ReduxMe_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_Tests.swift; sourceTree = "<group>"; };
 		4016146D22A2D3D600C6A11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4016147522A2D4BE00C6A11E /* RESObservableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESObservableTests.swift; sourceTree = "<group>"; };
+		4016147622A2D4BE00C6A11E /* RESDisposeBagTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESDisposeBagTests.swift; sourceTree = "<group>"; };
+		4016147722A2D4BE00C6A11E /* RESReduxStoreTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxStoreTests.swift; sourceTree = "<group>"; };
+		4016147C22A2D53800C6A11E /* ReduxMeStub+Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Disposable.swift"; sourceTree = "<group>"; };
+		4016147E22A2D55900C6A11E /* ReduxMeStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStub.swift; sourceTree = "<group>"; };
+		4016148122A2D64A00C6A11E /* ReduxMeStub+Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Store.swift"; sourceTree = "<group>"; };
+		4016148322A2D75200C6A11E /* ReduxMeStub+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+State.swift"; sourceTree = "<group>"; };
+		4016148522A2D91700C6A11E /* ReduxMeStub+Substate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Substate.swift"; sourceTree = "<group>"; };
+		4016148822A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+DisposeBag.swift"; sourceTree = "<group>"; };
+		4016148A22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+SerialDispatchQueue.swift"; sourceTree = "<group>"; };
+		4016148C22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Dispatcher.swift"; sourceTree = "<group>"; };
+		4016148F22A2DFBA00C6A11E /* ReduxMeStub+Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Listener.swift"; sourceTree = "<group>"; };
+		4016149122A2DFC700C6A11E /* ReduxMeStub+Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Middleware.swift"; sourceTree = "<group>"; };
+		4016149322A2DFD500C6A11E /* ReduxMeStub+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Action.swift"; sourceTree = "<group>"; };
+		4016149622A2E22200C6A11E /* ReduxMeStub+Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Reducer.swift"; sourceTree = "<group>"; };
 		403EC65722A2B452003165D3 /* libReduxMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReduxMe.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		403EC65A22A2B452003165D3 /* ReduxMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe.swift; sourceTree = "<group>"; };
 		403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateListenerProtocol.swift; sourceTree = "<group>"; };
@@ -104,10 +132,40 @@
 		4016146A22A2D3D600C6A11E /* ReduxMe Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4016146B22A2D3D600C6A11E /* ReduxMe_Tests.swift */,
+				4016147B22A2D4FA00C6A11E /* Stubs */,
+				4016147422A2D4AD00C6A11E /* Implementation */,
 				4016146D22A2D3D600C6A11E /* Info.plist */,
 			);
 			path = "ReduxMe Tests";
+			sourceTree = "<group>";
+		};
+		4016147422A2D4AD00C6A11E /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				4016147622A2D4BE00C6A11E /* RESDisposeBagTests.swift */,
+				4016147522A2D4BE00C6A11E /* RESObservableTests.swift */,
+				4016147722A2D4BE00C6A11E /* RESReduxStoreTests.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		4016147B22A2D4FA00C6A11E /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				4016147E22A2D55900C6A11E /* ReduxMeStub.swift */,
+				4016148122A2D64A00C6A11E /* ReduxMeStub+Store.swift */,
+				4016147C22A2D53800C6A11E /* ReduxMeStub+Disposable.swift */,
+				4016148322A2D75200C6A11E /* ReduxMeStub+State.swift */,
+				4016148522A2D91700C6A11E /* ReduxMeStub+Substate.swift */,
+				4016148822A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift */,
+				4016148A22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift */,
+				4016148C22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift */,
+				4016148F22A2DFBA00C6A11E /* ReduxMeStub+Listener.swift */,
+				4016149122A2DFC700C6A11E /* ReduxMeStub+Middleware.swift */,
+				4016149322A2DFD500C6A11E /* ReduxMeStub+Action.swift */,
+				4016149622A2E22200C6A11E /* ReduxMeStub+Reducer.swift */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 		403EC64E22A2B452003165D3 = {
@@ -222,6 +280,7 @@
 				TargetAttributes = {
 					4016146822A2D3D600C6A11E = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					403EC65622A2B452003165D3 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -261,7 +320,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4016146C22A2D3D600C6A11E /* ReduxMe_Tests.swift in Sources */,
+				4016148222A2D64A00C6A11E /* ReduxMeStub+Store.swift in Sources */,
+				4016149522A2E14100C6A11E /* RESReduxStoreTests.swift in Sources */,
+				4016147D22A2D53800C6A11E /* ReduxMeStub+Disposable.swift in Sources */,
+				4016148422A2D75200C6A11E /* ReduxMeStub+State.swift in Sources */,
+				4016148D22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift in Sources */,
+				4016149222A2DFC700C6A11E /* ReduxMeStub+Middleware.swift in Sources */,
+				4016149422A2DFD500C6A11E /* ReduxMeStub+Action.swift in Sources */,
+				4016148922A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift in Sources */,
+				4016149722A2E22200C6A11E /* ReduxMeStub+Reducer.swift in Sources */,
+				4016147F22A2D55900C6A11E /* ReduxMeStub.swift in Sources */,
+				4016147922A2D4BE00C6A11E /* RESDisposeBagTests.swift in Sources */,
+				4016148E22A2DF8900C6A11E /* RESObservableTests.swift in Sources */,
+				4016148B22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift in Sources */,
+				4016148622A2D91700C6A11E /* ReduxMeStub+Substate.swift in Sources */,
+				4016149022A2DFBA00C6A11E /* ReduxMeStub+Listener.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +380,7 @@
 		4016147122A2D3D600C6A11E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBW6JB7T2F;
 				INFOPLIST_FILE = "ReduxMe Tests/Info.plist";
@@ -317,6 +391,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.tests.ReduxMe-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -325,6 +400,7 @@
 		4016147222A2D3D600C6A11E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBW6JB7T2F;
 				INFOPLIST_FILE = "ReduxMe Tests/Info.plist";

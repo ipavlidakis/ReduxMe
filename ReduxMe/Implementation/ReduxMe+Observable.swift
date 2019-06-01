@@ -8,12 +8,12 @@
 
 import Foundation
 
-extension ReduxMe {
+public extension ReduxMe {
 
     final class Observable<State: ReduxMeStateProtocol, Substate: ReduxMeSubstateProtocol & Equatable> {
 
-        typealias StateType = State
-        typealias SubstateType = Substate
+        public typealias StateType = State
+        public typealias SubstateType = Substate
         private let _identifier: UUID = UUID()
 
         private var unsubscribeBlock: UnsubscribeListener?
@@ -25,7 +25,7 @@ extension ReduxMe {
 
         private let transformationBlock: TransformationBlock
 
-        init(transformationBlock: @escaping TransformationBlock) {
+        public init(transformationBlock: @escaping TransformationBlock) {
 
             self.transformationBlock = transformationBlock
         }
@@ -40,7 +40,7 @@ extension ReduxMe {
 extension ReduxMe.Observable: ReduxMeObservableProtocol {
 
     @discardableResult
-    func subscribe(on store: ReduxMe.Store<State>) -> Self {
+    public func subscribe(on store: ReduxMe.Store<State>) -> Self {
 
         self.store = store
         
@@ -50,7 +50,7 @@ extension ReduxMe.Observable: ReduxMeObservableProtocol {
     }
 
     @discardableResult
-    func onChange(_ onChangeUpdateBlock: @escaping UpdateBlock) -> Self {
+    public func onChange(_ onChangeUpdateBlock: @escaping UpdateBlock) -> Self {
 
         guard let _ = store else {
 
@@ -67,7 +67,7 @@ extension ReduxMe.Observable: ReduxMeObservableProtocol {
     }
 
     @discardableResult
-    func thenUnsubscribe() -> Self {
+    public func thenUnsubscribe() -> Self {
 
         onChangeDisposeBlock = { [weak self] in
 
@@ -78,7 +78,7 @@ extension ReduxMe.Observable: ReduxMeObservableProtocol {
     }
 
     @discardableResult
-    func disposed(
+    public func disposed(
         by bag: ReduxMeDisposableBagProtocol) -> Self {
 
         bag.add(self)
@@ -89,7 +89,7 @@ extension ReduxMe.Observable: ReduxMeObservableProtocol {
 
 extension ReduxMe.Observable: ReduxMeDisposable {
 
-    func onDispose() {
+    public func onDispose() {
 
         unsubscribeBlock?()
     }
@@ -97,9 +97,9 @@ extension ReduxMe.Observable: ReduxMeDisposable {
 
 extension ReduxMe.Observable: ReduxMeListenerProtocol {
 
-    var identifier: UUID { return _identifier }
+    public var identifier: UUID { return _identifier }
 
-    func stateUpdated() {
+    public func stateUpdated() {
 
         let substate = transformationBlock(store.state)
         let localLastUsedSubstate = self.lastUsedSubstate

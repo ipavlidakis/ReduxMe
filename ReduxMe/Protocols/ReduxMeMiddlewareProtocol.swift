@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ReduxMeMiddlewareProtocol {
+public protocol ReduxMeMiddlewareProtocol {
 
     func apply<State: ReduxMeStateProtocol>(
         _ state: State,

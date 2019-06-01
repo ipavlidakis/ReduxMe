@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ReduxMeSerialDispatchQueueing {
+public protocol ReduxMeSerialDispatchQueueing {
 
     func enqueue(_ block: @escaping () -> Void)
 

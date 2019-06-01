@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ReduxMeReducerProtocol {
+public protocol ReduxMeReducerProtocol {
 
     func reduce<State: ReduxMeStateProtocol>(
         _ state: State,

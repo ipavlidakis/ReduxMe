@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol ReduxMeObservableProtocol {
+public protocol ReduxMeObservableProtocol {
 
     associatedtype StateType: ReduxMeStateProtocol
     associatedtype SubstateType: ReduxMeSubstateProtocol

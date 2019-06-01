@@ -14,6 +14,8 @@ public extension ReduxMe {
 
         private var disposableElements: [ReduxMeDisposable] = []
 
+        public init() {}
+
         deinit {
 
             disposableElements.forEach { $0.onDispose() }

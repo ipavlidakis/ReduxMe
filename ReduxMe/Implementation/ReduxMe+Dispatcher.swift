@@ -10,11 +10,11 @@ import Foundation
 
 extension ReduxMe {
 
-    final class Dispatcher {
+    public final class Dispatcher {
 
         private let queue: DispatchQueue
 
-        init(queue: DispatchQueue) {
+        public init(queue: DispatchQueue) {
 
             self.queue = queue
         }
@@ -23,7 +23,7 @@ extension ReduxMe {
 
 extension ReduxMe.Dispatcher: ReduxMeDispatching {
 
-    func async(_ block: @escaping () -> Void) {
+    public func async(_ block: @escaping () -> Void) {
 
         queue.async(execute: block)
     }

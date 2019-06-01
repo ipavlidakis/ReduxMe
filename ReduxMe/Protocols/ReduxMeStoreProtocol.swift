@@ -8,11 +8,11 @@
 
 import Foundation
 
-protocol ReduxMeStoreProtocol: ReduxMeActionDispatching {
+public protocol ReduxMeStoreProtocol: ReduxMeActionDispatching {
 
     associatedtype State
 
-    var state: State { get set }
+    var state: State { get }
 
     func subscribe(
         _ listener: ReduxMeListenerProtocol) -> ReduxMe.UnsubscribeListener

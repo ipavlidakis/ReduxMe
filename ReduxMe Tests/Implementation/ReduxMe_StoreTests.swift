@@ -1,16 +1,15 @@
 //
-//  RESReduxStoreTests.swift
-//  Reservations-Framework-Tests
+//  ReduxMe_StoreTests.swift
 //
 //  Created by Ilias Pavlidakis on 1/17/19.
-//  Copyright © 2019 Expedia, INC. All rights reserved.
+//  Copyright © 2019 ReduxMe All rights reserved.
 //
 
 import Foundation
 import XCTest
 import ReduxMe
 
-final class RESReduxStoreTests: XCTestCase {
+final class ReduxMe_StoreTests: XCTestCase {
 
     private var state: ReduxMe.Stub.State! = .initial
     private var stubReducers: [ReduxMe.Stub.Reducer]!
@@ -53,7 +52,7 @@ final class RESReduxStoreTests: XCTestCase {
     }
 }
 
-extension RESReduxStoreTests {
+extension ReduxMe_StoreTests {
 
     // MARK: - dispatch
 

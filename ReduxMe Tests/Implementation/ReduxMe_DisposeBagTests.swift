@@ -1,16 +1,15 @@
 //
-//  RESDisposeBagTests.swift
-//  Reservations-Framework-Tests
+//  ReduxMe_DisposeBagTests.swift
 //
 //  Created by Ilias Pavlidakis on 3/5/19.
-//  Copyright © 2019 Expedia, INC. All rights reserved.
+//  Copyright © 2019 ReduxMe All rights reserved.
 //
 
 import Foundation
 import XCTest
 import ReduxMe
 
-final class RESDisposeBagTests: XCTestCase {
+final class ReduxMe_DisposeBagTests: XCTestCase {
 
     // MARK: deinit
 

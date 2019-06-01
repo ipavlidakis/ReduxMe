@@ -1,16 +1,15 @@
 //
-//  RESObservableTests.swift
-//  Reservations-Framework-Tests
+//  ReduxMe_ObservableTests.swift
 //
 //  Created by Ilias Pavlidakis on 3/5/19.
-//  Copyright © 2019 Expedia, INC. All rights reserved.
+//  Copyright © 2019 ReduxMe All rights reserved.
 //
 
 import Foundation
 import XCTest
 import ReduxMe
 
-final class RESObservableTests: XCTestCase {
+final class ReduxMe_ObservableTests: XCTestCase {
 
     private var stubStore: ReduxMe.Stub.Store! = ReduxMe.Stub.Store()
     private var transformationBlockWasCalledWithState: ReduxMe.Stub.State?
@@ -29,7 +28,7 @@ final class RESObservableTests: XCTestCase {
     }
 }
 
-extension RESObservableTests {
+extension ReduxMe_ObservableTests {
 
     // MARK: subscribe
 
@@ -78,7 +77,7 @@ extension RESObservableTests {
     }
 }
 
-extension RESObservableTests {
+extension ReduxMe_ObservableTests {
 
     // MARK: onDispose
 
@@ -94,7 +93,7 @@ extension RESObservableTests {
     }
 }
 
-extension RESObservableTests {
+extension ReduxMe_ObservableTests {
 
     // MARK: stateUpdated
 

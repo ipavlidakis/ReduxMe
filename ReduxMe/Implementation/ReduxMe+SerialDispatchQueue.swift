@@ -8,11 +8,11 @@
 
 import Foundation
 
-extension ReduxMe {
+public extension ReduxMe {
 
     final class SerialDispatchQueue: OperationQueue {
 
-        override init() {
+        public override init() {
             super.init()
 
             self.name = "SerialDispatchQueue"
@@ -22,12 +22,12 @@ extension ReduxMe {
 }
 extension ReduxMe.SerialDispatchQueue: ReduxMeSerialDispatchQueueing {
 
-    func enqueue(_ block: @escaping () -> Void) {
+    public func enqueue(_ block: @escaping () -> Void) {
         
         self.addOperation(block)
     }
     
-    func clear() {
+    public func clear() {
         
         self.cancelAllOperations()
     }

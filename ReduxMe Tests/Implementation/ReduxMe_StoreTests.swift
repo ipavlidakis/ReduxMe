@@ -7,7 +7,13 @@
 
 import Foundation
 import XCTest
+#if os(iOS)
 import ReduxMe
+#elseif os(tvOS)
+import ReduxMe_tvOS
+#else
+import ReduxMe_macOS
+#endif
 
 final class ReduxMe_StoreTests: XCTestCase {
 

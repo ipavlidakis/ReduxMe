@@ -68,6 +68,40 @@
 		401614F522A2EF2000C6A11E /* ReduxMeSubstateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67122A2B47B003165D3 /* ReduxMeSubstateProtocol.swift */; };
 		401614F622A2EF2000C6A11E /* ReduxMeStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6B222A2C293003165D3 /* ReduxMeStateProtocol.swift */; };
 		401614F722A2EF2000C6A11E /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC65A22A2B452003165D3 /* ReduxMe.swift */; };
+		4016151022A2F07000C6A11E /* ReduxMe_tvOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016150F22A2F07000C6A11E /* ReduxMe_tvOS_Tests.swift */; };
+		4016151222A2F07000C6A11E /* libReduxMe_tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401614AB22A2EEE000C6A11E /* libReduxMe_tvOS.a */; };
+		4016151F22A2F08900C6A11E /* ReduxMe_macOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016151E22A2F08900C6A11E /* ReduxMe_macOS_Tests.swift */; };
+		4016152122A2F08900C6A11E /* libReduxMe_macOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 401614DA22A2EF1800C6A11E /* libReduxMe_macOS.a */; };
+		4016152722A2F0A600C6A11E /* ReduxMeStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147E22A2D55900C6A11E /* ReduxMeStub.swift */; };
+		4016152822A2F0A600C6A11E /* ReduxMeStub+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148122A2D64A00C6A11E /* ReduxMeStub+Store.swift */; };
+		4016152922A2F0A600C6A11E /* ReduxMeStub+Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147C22A2D53800C6A11E /* ReduxMeStub+Disposable.swift */; };
+		4016152A22A2F0A600C6A11E /* ReduxMeStub+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148322A2D75200C6A11E /* ReduxMeStub+State.swift */; };
+		4016152B22A2F0A600C6A11E /* ReduxMeStub+Substate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148522A2D91700C6A11E /* ReduxMeStub+Substate.swift */; };
+		4016152C22A2F0A600C6A11E /* ReduxMeStub+DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148822A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift */; };
+		4016152D22A2F0A600C6A11E /* ReduxMeStub+SerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148A22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift */; };
+		4016152E22A2F0A600C6A11E /* ReduxMeStub+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148C22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift */; };
+		4016152F22A2F0A600C6A11E /* ReduxMeStub+Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148F22A2DFBA00C6A11E /* ReduxMeStub+Listener.swift */; };
+		4016153022A2F0A600C6A11E /* ReduxMeStub+Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149122A2DFC700C6A11E /* ReduxMeStub+Middleware.swift */; };
+		4016153122A2F0A600C6A11E /* ReduxMeStub+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149322A2DFD500C6A11E /* ReduxMeStub+Action.swift */; };
+		4016153222A2F0A600C6A11E /* ReduxMeStub+Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149622A2E22200C6A11E /* ReduxMeStub+Reducer.swift */; };
+		4016153322A2F0A600C6A11E /* ReduxMe_DisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147622A2D4BE00C6A11E /* ReduxMe_DisposeBagTests.swift */; };
+		4016153422A2F0A600C6A11E /* ReduxMe_ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147522A2D4BE00C6A11E /* ReduxMe_ObservableTests.swift */; };
+		4016153522A2F0A600C6A11E /* ReduxMe_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147722A2D4BE00C6A11E /* ReduxMe_StoreTests.swift */; };
+		4016153622A2F0A700C6A11E /* ReduxMeStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147E22A2D55900C6A11E /* ReduxMeStub.swift */; };
+		4016153722A2F0A700C6A11E /* ReduxMeStub+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148122A2D64A00C6A11E /* ReduxMeStub+Store.swift */; };
+		4016153822A2F0A700C6A11E /* ReduxMeStub+Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147C22A2D53800C6A11E /* ReduxMeStub+Disposable.swift */; };
+		4016153922A2F0A700C6A11E /* ReduxMeStub+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148322A2D75200C6A11E /* ReduxMeStub+State.swift */; };
+		4016153A22A2F0A700C6A11E /* ReduxMeStub+Substate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148522A2D91700C6A11E /* ReduxMeStub+Substate.swift */; };
+		4016153B22A2F0A700C6A11E /* ReduxMeStub+DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148822A2D9E700C6A11E /* ReduxMeStub+DisposeBag.swift */; };
+		4016153C22A2F0A700C6A11E /* ReduxMeStub+SerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148A22A2DDC300C6A11E /* ReduxMeStub+SerialDispatchQueue.swift */; };
+		4016153D22A2F0A700C6A11E /* ReduxMeStub+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148C22A2DE5C00C6A11E /* ReduxMeStub+Dispatcher.swift */; };
+		4016153E22A2F0A700C6A11E /* ReduxMeStub+Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016148F22A2DFBA00C6A11E /* ReduxMeStub+Listener.swift */; };
+		4016153F22A2F0A700C6A11E /* ReduxMeStub+Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149122A2DFC700C6A11E /* ReduxMeStub+Middleware.swift */; };
+		4016154022A2F0A700C6A11E /* ReduxMeStub+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149322A2DFD500C6A11E /* ReduxMeStub+Action.swift */; };
+		4016154122A2F0A700C6A11E /* ReduxMeStub+Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016149622A2E22200C6A11E /* ReduxMeStub+Reducer.swift */; };
+		4016154222A2F0A700C6A11E /* ReduxMe_DisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147622A2D4BE00C6A11E /* ReduxMe_DisposeBagTests.swift */; };
+		4016154322A2F0A700C6A11E /* ReduxMe_ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147522A2D4BE00C6A11E /* ReduxMe_ObservableTests.swift */; };
+		4016154422A2F0A700C6A11E /* ReduxMe_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016147722A2D4BE00C6A11E /* ReduxMe_StoreTests.swift */; };
 		403EC65B22A2B452003165D3 /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC65A22A2B452003165D3 /* ReduxMe.swift */; };
 		403EC68222A2B47C003165D3 /* ReduxMeSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */; };
 		403EC68322A2B47C003165D3 /* ReduxMeActionDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66522A2B47A003165D3 /* ReduxMeActionDispatching.swift */; };
@@ -98,6 +132,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 403EC65622A2B452003165D3;
 			remoteInfo = ReduxMe;
+		};
+		4016151322A2F07000C6A11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403EC64F22A2B452003165D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401614AA22A2EEE000C6A11E;
+			remoteInfo = ReduxMe_tvOS;
+		};
+		4016152222A2F08900C6A11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403EC64F22A2B452003165D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 401614D922A2EF1800C6A11E;
+			remoteInfo = ReduxMe_macOS;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -145,6 +193,12 @@
 		401614DA22A2EF1800C6A11E /* libReduxMe_macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReduxMe_macOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		401614DC22A2EF1800C6A11E /* ReduxMe_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReduxMe_macOS.h; sourceTree = "<group>"; };
 		401614DE22A2EF1800C6A11E /* ReduxMe_macOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReduxMe_macOS.m; sourceTree = "<group>"; };
+		4016150D22A2F07000C6A11E /* ReduxMe_tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReduxMe_tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4016150F22A2F07000C6A11E /* ReduxMe_tvOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_tvOS_Tests.swift; sourceTree = "<group>"; };
+		4016151122A2F07000C6A11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4016151C22A2F08900C6A11E /* ReduxMe_macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReduxMe_macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4016151E22A2F08900C6A11E /* ReduxMe_macOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_macOS_Tests.swift; sourceTree = "<group>"; };
+		4016152022A2F08900C6A11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		403EC65722A2B452003165D3 /* libReduxMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReduxMe.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		403EC65A22A2B452003165D3 /* ReduxMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe.swift; sourceTree = "<group>"; };
 		403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateListenerProtocol.swift; sourceTree = "<group>"; };
@@ -189,6 +243,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4016150A22A2F07000C6A11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016151222A2F07000C6A11E /* libReduxMe_tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4016151922A2F08900C6A11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016152122A2F08900C6A11E /* libReduxMe_macOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,13 +328,33 @@
 			path = ReduxMe_macOS;
 			sourceTree = "<group>";
 		};
+		4016150E22A2F07000C6A11E /* ReduxMe_tvOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4016150F22A2F07000C6A11E /* ReduxMe_tvOS_Tests.swift */,
+				4016151122A2F07000C6A11E /* Info.plist */,
+			);
+			path = "ReduxMe_tvOS Tests";
+			sourceTree = "<group>";
+		};
+		4016151D22A2F08900C6A11E /* ReduxMe_macOS Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4016151E22A2F08900C6A11E /* ReduxMe_macOS_Tests.swift */,
+				4016152022A2F08900C6A11E /* Info.plist */,
+			);
+			path = "ReduxMe_macOS Tests";
+			sourceTree = "<group>";
+		};
 		403EC64E22A2B452003165D3 = {
 			isa = PBXGroup;
 			children = (
 				403EC65922A2B452003165D3 /* ReduxMe */,
 				4016146A22A2D3D600C6A11E /* ReduxMe Tests */,
 				401614AC22A2EEE000C6A11E /* ReduxMe_tvOS */,
+				4016150E22A2F07000C6A11E /* ReduxMe_tvOS Tests */,
 				401614DB22A2EF1800C6A11E /* ReduxMe_macOS */,
+				4016151D22A2F08900C6A11E /* ReduxMe_macOS Tests */,
 				403EC65822A2B452003165D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -276,6 +366,8 @@
 				4016146922A2D3D600C6A11E /* ReduxMe Tests.xctest */,
 				401614AB22A2EEE000C6A11E /* libReduxMe_tvOS.a */,
 				401614DA22A2EF1800C6A11E /* libReduxMe_macOS.a */,
+				4016150D22A2F07000C6A11E /* ReduxMe_tvOS Tests.xctest */,
+				4016151C22A2F08900C6A11E /* ReduxMe_macOS Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -390,6 +482,42 @@
 			productReference = 401614DA22A2EF1800C6A11E /* libReduxMe_macOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		4016150C22A2F07000C6A11E /* ReduxMe_tvOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016151522A2F07000C6A11E /* Build configuration list for PBXNativeTarget "ReduxMe_tvOS Tests" */;
+			buildPhases = (
+				4016150922A2F07000C6A11E /* Sources */,
+				4016150A22A2F07000C6A11E /* Frameworks */,
+				4016150B22A2F07000C6A11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4016151422A2F07000C6A11E /* PBXTargetDependency */,
+			);
+			name = "ReduxMe_tvOS Tests";
+			productName = "ReduxMe_tvOS Tests";
+			productReference = 4016150D22A2F07000C6A11E /* ReduxMe_tvOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4016151B22A2F08900C6A11E /* ReduxMe_macOS Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016152422A2F08900C6A11E /* Build configuration list for PBXNativeTarget "ReduxMe_macOS Tests" */;
+			buildPhases = (
+				4016151822A2F08900C6A11E /* Sources */,
+				4016151922A2F08900C6A11E /* Frameworks */,
+				4016151A22A2F08900C6A11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4016152322A2F08900C6A11E /* PBXTargetDependency */,
+			);
+			name = "ReduxMe_macOS Tests";
+			productName = "ReduxMe_macOS Tests";
+			productReference = 4016151C22A2F08900C6A11E /* ReduxMe_macOS Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		403EC65622A2B452003165D3 /* ReduxMe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403EC65E22A2B452003165D3 /* Build configuration list for PBXNativeTarget "ReduxMe" */;
@@ -427,6 +555,12 @@
 					401614D922A2EF1800C6A11E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
+					4016150C22A2F07000C6A11E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4016151B22A2F08900C6A11E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					403EC65622A2B452003165D3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -447,13 +581,29 @@
 				403EC65622A2B452003165D3 /* ReduxMe */,
 				4016146822A2D3D600C6A11E /* ReduxMe Tests */,
 				401614AA22A2EEE000C6A11E /* ReduxMe_tvOS */,
+				4016150C22A2F07000C6A11E /* ReduxMe_tvOS Tests */,
 				401614D922A2EF1800C6A11E /* ReduxMe_macOS */,
+				4016151B22A2F08900C6A11E /* ReduxMe_macOS Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4016146722A2D3D600C6A11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4016150B22A2F07000C6A11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4016151A22A2F08900C6A11E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -543,6 +693,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4016150922A2F07000C6A11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016152E22A2F0A600C6A11E /* ReduxMeStub+Dispatcher.swift in Sources */,
+				4016153022A2F0A600C6A11E /* ReduxMeStub+Middleware.swift in Sources */,
+				4016152D22A2F0A600C6A11E /* ReduxMeStub+SerialDispatchQueue.swift in Sources */,
+				4016153422A2F0A600C6A11E /* ReduxMe_ObservableTests.swift in Sources */,
+				4016152922A2F0A600C6A11E /* ReduxMeStub+Disposable.swift in Sources */,
+				4016153222A2F0A600C6A11E /* ReduxMeStub+Reducer.swift in Sources */,
+				4016153322A2F0A600C6A11E /* ReduxMe_DisposeBagTests.swift in Sources */,
+				4016152A22A2F0A600C6A11E /* ReduxMeStub+State.swift in Sources */,
+				4016152F22A2F0A600C6A11E /* ReduxMeStub+Listener.swift in Sources */,
+				4016152722A2F0A600C6A11E /* ReduxMeStub.swift in Sources */,
+				4016152822A2F0A600C6A11E /* ReduxMeStub+Store.swift in Sources */,
+				4016153122A2F0A600C6A11E /* ReduxMeStub+Action.swift in Sources */,
+				4016153522A2F0A600C6A11E /* ReduxMe_StoreTests.swift in Sources */,
+				4016151022A2F07000C6A11E /* ReduxMe_tvOS_Tests.swift in Sources */,
+				4016152C22A2F0A600C6A11E /* ReduxMeStub+DisposeBag.swift in Sources */,
+				4016152B22A2F0A600C6A11E /* ReduxMeStub+Substate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4016151822A2F08900C6A11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016153D22A2F0A700C6A11E /* ReduxMeStub+Dispatcher.swift in Sources */,
+				4016153F22A2F0A700C6A11E /* ReduxMeStub+Middleware.swift in Sources */,
+				4016153C22A2F0A700C6A11E /* ReduxMeStub+SerialDispatchQueue.swift in Sources */,
+				4016154322A2F0A700C6A11E /* ReduxMe_ObservableTests.swift in Sources */,
+				4016153822A2F0A700C6A11E /* ReduxMeStub+Disposable.swift in Sources */,
+				4016154122A2F0A700C6A11E /* ReduxMeStub+Reducer.swift in Sources */,
+				4016154222A2F0A700C6A11E /* ReduxMe_DisposeBagTests.swift in Sources */,
+				4016153922A2F0A700C6A11E /* ReduxMeStub+State.swift in Sources */,
+				4016153E22A2F0A700C6A11E /* ReduxMeStub+Listener.swift in Sources */,
+				4016153622A2F0A700C6A11E /* ReduxMeStub.swift in Sources */,
+				4016153722A2F0A700C6A11E /* ReduxMeStub+Store.swift in Sources */,
+				4016154022A2F0A700C6A11E /* ReduxMeStub+Action.swift in Sources */,
+				4016154422A2F0A700C6A11E /* ReduxMe_StoreTests.swift in Sources */,
+				4016151F22A2F08900C6A11E /* ReduxMe_macOS_Tests.swift in Sources */,
+				4016153B22A2F0A700C6A11E /* ReduxMeStub+DisposeBag.swift in Sources */,
+				4016153A22A2F0A700C6A11E /* ReduxMeStub+Substate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		403EC65322A2B452003165D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,6 +774,16 @@
 			isa = PBXTargetDependency;
 			target = 403EC65622A2B452003165D3 /* ReduxMe */;
 			targetProxy = 4016146F22A2D3D600C6A11E /* PBXContainerItemProxy */;
+		};
+		4016151422A2F07000C6A11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401614AA22A2EEE000C6A11E /* ReduxMe_tvOS */;
+			targetProxy = 4016151322A2F07000C6A11E /* PBXContainerItemProxy */;
+		};
+		4016152322A2F08900C6A11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 401614D922A2EF1800C6A11E /* ReduxMe_macOS */;
+			targetProxy = 4016152222A2F08900C6A11E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -677,6 +883,88 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4016151622A2F07000C6A11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBW6JB7T2F;
+				INFOPLIST_FILE = "ReduxMe_tvOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.tvOS.tests.ReduxMe-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		4016151722A2F07000C6A11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBW6JB7T2F;
+				INFOPLIST_FILE = "ReduxMe_tvOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.tvOS.tests.ReduxMe-tvOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Release;
+		};
+		4016152522A2F08900C6A11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBW6JB7T2F;
+				INFOPLIST_FILE = "ReduxMe_macOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.macOS.tests.ReduxMe-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4016152622A2F08900C6A11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UBW6JB7T2F;
+				INFOPLIST_FILE = "ReduxMe_macOS Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.macOS.tests.ReduxMe-macOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -849,6 +1137,24 @@
 			buildConfigurations = (
 				401614E122A2EF1800C6A11E /* Debug */,
 				401614E222A2EF1800C6A11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4016151522A2F07000C6A11E /* Build configuration list for PBXNativeTarget "ReduxMe_tvOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016151622A2F07000C6A11E /* Debug */,
+				4016151722A2F07000C6A11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4016152422A2F08900C6A11E /* Build configuration list for PBXNativeTarget "ReduxMe_macOS Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016152522A2F08900C6A11E /* Debug */,
+				4016152622A2F08900C6A11E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

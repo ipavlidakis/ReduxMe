@@ -6,6 +6,9 @@
 //  Copyright © 2019 ReduxMe All rights reserved.
 //
 
+import Foundation
+
+@objc
 public protocol ReduxMeActionDispatching {
 
     func dispatch(

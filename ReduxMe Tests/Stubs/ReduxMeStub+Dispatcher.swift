@@ -7,7 +7,13 @@
 //
 
 import Foundation
+#if os(iOS)
 import ReduxMe
+#elseif os(tvOS)
+import ReduxMe_tvOS
+#else
+import ReduxMe_macOS
+#endif
 
 extension ReduxMe.Stub {
 

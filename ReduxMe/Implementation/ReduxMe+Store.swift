@@ -36,7 +36,7 @@ extension ReduxMe {
             reducers: [ReduxMeReducerProtocol],
             middleware: [ReduxMeMiddlewareProtocol] = [],
             listeners: [ReduxMeListenerProtocol] = [],
-            serialActionDispatchQueue: ReduxMeSerialDispatchQueueing,
+            serialActionDispatchQueue: ReduxMeSerialDispatchQueueing = ReduxMe.SerialDispatchQueue(),
             mainThreadDispatcher: ReduxMeDispatching = ReduxMe.Dispatcher(queue: .main)) {
 
             self.reducer = ReduxMe.CompoundReducer(reducers: reducers)

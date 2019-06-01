@@ -8,24 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		403EC65B22A2B452003165D3 /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC65A22A2B452003165D3 /* ReduxMe.swift */; };
-		403EC68222A2B47C003165D3 /* RESReduxSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66422A2B47A003165D3 /* RESReduxSubstateListenerProtocol.swift */; };
-		403EC68322A2B47C003165D3 /* RESReduxActionDispatchingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66522A2B47A003165D3 /* RESReduxActionDispatchingProtocol.swift */; };
-		403EC68422A2B47C003165D3 /* RESReduxStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66622A2B47A003165D3 /* RESReduxStore.swift */; };
-		403EC68522A2B47C003165D3 /* RESDisposableBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66722A2B47B003165D3 /* RESDisposableBag.swift */; };
-		403EC68A22A2B47C003165D3 /* RESObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66C22A2B47B003165D3 /* RESObservable.swift */; };
-		403EC68B22A2B47C003165D3 /* RESReduxActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66D22A2B47B003165D3 /* RESReduxActionProtocol.swift */; };
-		403EC68F22A2B47C003165D3 /* RESReduxSubstateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67122A2B47B003165D3 /* RESReduxSubstateProtocol.swift */; };
-		403EC69022A2B47C003165D3 /* RESDisposableBagProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67222A2B47B003165D3 /* RESDisposableBagProtocol.swift */; };
-		403EC69122A2B47C003165D3 /* RESReduxStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67322A2B47B003165D3 /* RESReduxStoreProtocol.swift */; };
-		403EC69222A2B47C003165D3 /* RESDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67422A2B47B003165D3 /* RESDisposable.swift */; };
-		403EC69722A2B47C003165D3 /* RESReduxListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67922A2B47B003165D3 /* RESReduxListenerProtocol.swift */; };
-		403EC69922A2B47C003165D3 /* RESReduxReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67B22A2B47C003165D3 /* RESReduxReducer.swift */; };
-		403EC69B22A2B47C003165D3 /* RESReduxMiddlewareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67D22A2B47C003165D3 /* RESReduxMiddlewareProtocol.swift */; };
-		403EC69D22A2B47C003165D3 /* RESObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67F22A2B47C003165D3 /* RESObservableProtocol.swift */; };
-		403EC6A022A2B562003165D3 /* RESSerialDispatchQueueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC69F22A2B562003165D3 /* RESSerialDispatchQueueing.swift */; };
-		403EC6A222A2B596003165D3 /* RESDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6A122A2B596003165D3 /* RESDispatching.swift */; };
-		403EC6A522A2B5E2003165D3 /* RESDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6A322A2B5E1003165D3 /* RESDispatcher.swift */; };
-		403EC6A622A2B5E2003165D3 /* RESSerialDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6A422A2B5E2003165D3 /* RESSerialDispatcher.swift */; };
+		403EC68222A2B47C003165D3 /* ReduxMeSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */; };
+		403EC68322A2B47C003165D3 /* ReduxMeActionDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66522A2B47A003165D3 /* ReduxMeActionDispatching.swift */; };
+		403EC68B22A2B47C003165D3 /* ReduxMeActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66D22A2B47B003165D3 /* ReduxMeActionProtocol.swift */; };
+		403EC68F22A2B47C003165D3 /* ReduxMeSubstateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67122A2B47B003165D3 /* ReduxMeSubstateProtocol.swift */; };
+		403EC69022A2B47C003165D3 /* ReduxMeDisposableBagProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67222A2B47B003165D3 /* ReduxMeDisposableBagProtocol.swift */; };
+		403EC69122A2B47C003165D3 /* ReduxMeStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67322A2B47B003165D3 /* ReduxMeStoreProtocol.swift */; };
+		403EC69222A2B47C003165D3 /* ReduxMeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67422A2B47B003165D3 /* ReduxMeDisposable.swift */; };
+		403EC69722A2B47C003165D3 /* ReduxMeListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67922A2B47B003165D3 /* ReduxMeListenerProtocol.swift */; };
+		403EC69922A2B47C003165D3 /* ReduxMeReducerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67B22A2B47C003165D3 /* ReduxMeReducerProtocol.swift */; };
+		403EC69B22A2B47C003165D3 /* ReduxMeMiddlewareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67D22A2B47C003165D3 /* ReduxMeMiddlewareProtocol.swift */; };
+		403EC69D22A2B47C003165D3 /* ReduxMeObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC67F22A2B47C003165D3 /* ReduxMeObservableProtocol.swift */; };
+		403EC6A022A2B562003165D3 /* ReduxMeSerialDispatchQueueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC69F22A2B562003165D3 /* ReduxMeSerialDispatchQueueing.swift */; };
+		403EC6A222A2B596003165D3 /* ReduxMeDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6A122A2B596003165D3 /* ReduxMeDispatching.swift */; };
+		403EC6A622A2B5E2003165D3 /* ReduxMe+SerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6A422A2B5E2003165D3 /* ReduxMe+SerialDispatchQueue.swift */; };
+		403EC6A922A2B843003165D3 /* ReduxMe+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6A822A2B843003165D3 /* ReduxMe+Dispatcher.swift */; };
+		403EC6AD22A2B8B9003165D3 /* ReduxMe+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6AC22A2B8B9003165D3 /* ReduxMe+Observable.swift */; };
+		403EC6AF22A2B8D8003165D3 /* ReduxMe+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6AE22A2B8D8003165D3 /* ReduxMe+Store.swift */; };
+		403EC6B122A2B9ED003165D3 /* ReduxMe+DisposableBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6B022A2B9ED003165D3 /* ReduxMe+DisposableBag.swift */; };
+		403EC6B322A2C293003165D3 /* ReduxMeStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6B222A2C293003165D3 /* ReduxMeStateProtocol.swift */; };
+		403EC6B522A2C751003165D3 /* ReduxMe+CompoundReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6B422A2C751003165D3 /* ReduxMe+CompoundReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,24 +45,26 @@
 /* Begin PBXFileReference section */
 		403EC65722A2B452003165D3 /* libReduxMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReduxMe.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		403EC65A22A2B452003165D3 /* ReduxMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe.swift; sourceTree = "<group>"; };
-		403EC66422A2B47A003165D3 /* RESReduxSubstateListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxSubstateListenerProtocol.swift; sourceTree = "<group>"; };
-		403EC66522A2B47A003165D3 /* RESReduxActionDispatchingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxActionDispatchingProtocol.swift; sourceTree = "<group>"; };
-		403EC66622A2B47A003165D3 /* RESReduxStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxStore.swift; sourceTree = "<group>"; };
-		403EC66722A2B47B003165D3 /* RESDisposableBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESDisposableBag.swift; sourceTree = "<group>"; };
-		403EC66C22A2B47B003165D3 /* RESObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESObservable.swift; sourceTree = "<group>"; };
-		403EC66D22A2B47B003165D3 /* RESReduxActionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxActionProtocol.swift; sourceTree = "<group>"; };
-		403EC67122A2B47B003165D3 /* RESReduxSubstateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxSubstateProtocol.swift; sourceTree = "<group>"; };
-		403EC67222A2B47B003165D3 /* RESDisposableBagProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESDisposableBagProtocol.swift; sourceTree = "<group>"; };
-		403EC67322A2B47B003165D3 /* RESReduxStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxStoreProtocol.swift; sourceTree = "<group>"; };
-		403EC67422A2B47B003165D3 /* RESDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESDisposable.swift; sourceTree = "<group>"; };
-		403EC67922A2B47B003165D3 /* RESReduxListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxListenerProtocol.swift; sourceTree = "<group>"; };
-		403EC67B22A2B47C003165D3 /* RESReduxReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxReducer.swift; sourceTree = "<group>"; };
-		403EC67D22A2B47C003165D3 /* RESReduxMiddlewareProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESReduxMiddlewareProtocol.swift; sourceTree = "<group>"; };
-		403EC67F22A2B47C003165D3 /* RESObservableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESObservableProtocol.swift; sourceTree = "<group>"; };
-		403EC69F22A2B562003165D3 /* RESSerialDispatchQueueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESSerialDispatchQueueing.swift; sourceTree = "<group>"; };
-		403EC6A122A2B596003165D3 /* RESDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESDispatching.swift; sourceTree = "<group>"; };
-		403EC6A322A2B5E1003165D3 /* RESDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESDispatcher.swift; sourceTree = "<group>"; };
-		403EC6A422A2B5E2003165D3 /* RESSerialDispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESSerialDispatcher.swift; sourceTree = "<group>"; };
+		403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateListenerProtocol.swift; sourceTree = "<group>"; };
+		403EC66522A2B47A003165D3 /* ReduxMeActionDispatching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeActionDispatching.swift; sourceTree = "<group>"; };
+		403EC66D22A2B47B003165D3 /* ReduxMeActionProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeActionProtocol.swift; sourceTree = "<group>"; };
+		403EC67122A2B47B003165D3 /* ReduxMeSubstateProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateProtocol.swift; sourceTree = "<group>"; };
+		403EC67222A2B47B003165D3 /* ReduxMeDisposableBagProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeDisposableBagProtocol.swift; sourceTree = "<group>"; };
+		403EC67322A2B47B003165D3 /* ReduxMeStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeStoreProtocol.swift; sourceTree = "<group>"; };
+		403EC67422A2B47B003165D3 /* ReduxMeDisposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeDisposable.swift; sourceTree = "<group>"; };
+		403EC67922A2B47B003165D3 /* ReduxMeListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeListenerProtocol.swift; sourceTree = "<group>"; };
+		403EC67B22A2B47C003165D3 /* ReduxMeReducerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeReducerProtocol.swift; sourceTree = "<group>"; };
+		403EC67D22A2B47C003165D3 /* ReduxMeMiddlewareProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeMiddlewareProtocol.swift; sourceTree = "<group>"; };
+		403EC67F22A2B47C003165D3 /* ReduxMeObservableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeObservableProtocol.swift; sourceTree = "<group>"; };
+		403EC69F22A2B562003165D3 /* ReduxMeSerialDispatchQueueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSerialDispatchQueueing.swift; sourceTree = "<group>"; };
+		403EC6A122A2B596003165D3 /* ReduxMeDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeDispatching.swift; sourceTree = "<group>"; };
+		403EC6A422A2B5E2003165D3 /* ReduxMe+SerialDispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMe+SerialDispatchQueue.swift"; sourceTree = "<group>"; };
+		403EC6A822A2B843003165D3 /* ReduxMe+Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Dispatcher.swift"; sourceTree = "<group>"; };
+		403EC6AC22A2B8B9003165D3 /* ReduxMe+Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Observable.swift"; sourceTree = "<group>"; };
+		403EC6AE22A2B8D8003165D3 /* ReduxMe+Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Store.swift"; sourceTree = "<group>"; };
+		403EC6B022A2B9ED003165D3 /* ReduxMe+DisposableBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReduxMe+DisposableBag.swift"; sourceTree = "<group>"; };
+		403EC6B222A2C293003165D3 /* ReduxMeStateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStateProtocol.swift; sourceTree = "<group>"; };
+		403EC6B422A2C751003165D3 /* ReduxMe+CompoundReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+CompoundReducer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,8 +97,8 @@
 		403EC65922A2B452003165D3 /* ReduxMe */ = {
 			isa = PBXGroup;
 			children = (
-				403EC66222A2B468003165D3 /* Protocols */,
 				403EC66122A2B45D003165D3 /* Implementation */,
+				403EC66222A2B468003165D3 /* Protocols */,
 				403EC65A22A2B452003165D3 /* ReduxMe.swift */,
 			);
 			path = ReduxMe;
@@ -103,12 +107,12 @@
 		403EC66122A2B45D003165D3 /* Implementation */ = {
 			isa = PBXGroup;
 			children = (
-				403EC6A322A2B5E1003165D3 /* RESDispatcher.swift */,
-				403EC6A422A2B5E2003165D3 /* RESSerialDispatcher.swift */,
-				403EC67422A2B47B003165D3 /* RESDisposable.swift */,
-				403EC66722A2B47B003165D3 /* RESDisposableBag.swift */,
-				403EC66C22A2B47B003165D3 /* RESObservable.swift */,
-				403EC66622A2B47A003165D3 /* RESReduxStore.swift */,
+				403EC6B022A2B9ED003165D3 /* ReduxMe+DisposableBag.swift */,
+				403EC6A822A2B843003165D3 /* ReduxMe+Dispatcher.swift */,
+				403EC6AC22A2B8B9003165D3 /* ReduxMe+Observable.swift */,
+				403EC6AE22A2B8D8003165D3 /* ReduxMe+Store.swift */,
+				403EC6A422A2B5E2003165D3 /* ReduxMe+SerialDispatchQueue.swift */,
+				403EC6B422A2C751003165D3 /* ReduxMe+CompoundReducer.swift */,
 			);
 			path = Implementation;
 			sourceTree = "<group>";
@@ -116,18 +120,20 @@
 		403EC66222A2B468003165D3 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				403EC67B22A2B47C003165D3 /* RESReduxReducer.swift */,
-				403EC67F22A2B47C003165D3 /* RESObservableProtocol.swift */,
-				403EC66522A2B47A003165D3 /* RESReduxActionDispatchingProtocol.swift */,
-				403EC66D22A2B47B003165D3 /* RESReduxActionProtocol.swift */,
-				403EC67922A2B47B003165D3 /* RESReduxListenerProtocol.swift */,
-				403EC67D22A2B47C003165D3 /* RESReduxMiddlewareProtocol.swift */,
-				403EC67322A2B47B003165D3 /* RESReduxStoreProtocol.swift */,
-				403EC66422A2B47A003165D3 /* RESReduxSubstateListenerProtocol.swift */,
-				403EC67122A2B47B003165D3 /* RESReduxSubstateProtocol.swift */,
-				403EC67222A2B47B003165D3 /* RESDisposableBagProtocol.swift */,
-				403EC69F22A2B562003165D3 /* RESSerialDispatchQueueing.swift */,
-				403EC6A122A2B596003165D3 /* RESDispatching.swift */,
+				403EC66522A2B47A003165D3 /* ReduxMeActionDispatching.swift */,
+				403EC66D22A2B47B003165D3 /* ReduxMeActionProtocol.swift */,
+				403EC6A122A2B596003165D3 /* ReduxMeDispatching.swift */,
+				403EC67422A2B47B003165D3 /* ReduxMeDisposable.swift */,
+				403EC67222A2B47B003165D3 /* ReduxMeDisposableBagProtocol.swift */,
+				403EC67922A2B47B003165D3 /* ReduxMeListenerProtocol.swift */,
+				403EC67D22A2B47C003165D3 /* ReduxMeMiddlewareProtocol.swift */,
+				403EC67F22A2B47C003165D3 /* ReduxMeObservableProtocol.swift */,
+				403EC67B22A2B47C003165D3 /* ReduxMeReducerProtocol.swift */,
+				403EC69F22A2B562003165D3 /* ReduxMeSerialDispatchQueueing.swift */,
+				403EC67322A2B47B003165D3 /* ReduxMeStoreProtocol.swift */,
+				403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */,
+				403EC67122A2B47B003165D3 /* ReduxMeSubstateProtocol.swift */,
+				403EC6B222A2C293003165D3 /* ReduxMeStateProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -189,25 +195,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403EC68222A2B47C003165D3 /* RESReduxSubstateListenerProtocol.swift in Sources */,
-				403EC68B22A2B47C003165D3 /* RESReduxActionProtocol.swift in Sources */,
-				403EC68422A2B47C003165D3 /* RESReduxStore.swift in Sources */,
-				403EC68A22A2B47C003165D3 /* RESObservable.swift in Sources */,
-				403EC69D22A2B47C003165D3 /* RESObservableProtocol.swift in Sources */,
-				403EC68F22A2B47C003165D3 /* RESReduxSubstateProtocol.swift in Sources */,
-				403EC69122A2B47C003165D3 /* RESReduxStoreProtocol.swift in Sources */,
-				403EC69222A2B47C003165D3 /* RESDisposable.swift in Sources */,
-				403EC68522A2B47C003165D3 /* RESDisposableBag.swift in Sources */,
-				403EC69022A2B47C003165D3 /* RESDisposableBagProtocol.swift in Sources */,
-				403EC6A622A2B5E2003165D3 /* RESSerialDispatcher.swift in Sources */,
-				403EC68322A2B47C003165D3 /* RESReduxActionDispatchingProtocol.swift in Sources */,
-				403EC69922A2B47C003165D3 /* RESReduxReducer.swift in Sources */,
-				403EC69722A2B47C003165D3 /* RESReduxListenerProtocol.swift in Sources */,
+				403EC68222A2B47C003165D3 /* ReduxMeSubstateListenerProtocol.swift in Sources */,
+				403EC6B322A2C293003165D3 /* ReduxMeStateProtocol.swift in Sources */,
+				403EC68B22A2B47C003165D3 /* ReduxMeActionProtocol.swift in Sources */,
+				403EC6A922A2B843003165D3 /* ReduxMe+Dispatcher.swift in Sources */,
+				403EC69D22A2B47C003165D3 /* ReduxMeObservableProtocol.swift in Sources */,
+				403EC6AF22A2B8D8003165D3 /* ReduxMe+Store.swift in Sources */,
+				403EC68F22A2B47C003165D3 /* ReduxMeSubstateProtocol.swift in Sources */,
+				403EC6B122A2B9ED003165D3 /* ReduxMe+DisposableBag.swift in Sources */,
+				403EC69122A2B47C003165D3 /* ReduxMeStoreProtocol.swift in Sources */,
+				403EC6AD22A2B8B9003165D3 /* ReduxMe+Observable.swift in Sources */,
+				403EC69222A2B47C003165D3 /* ReduxMeDisposable.swift in Sources */,
+				403EC69022A2B47C003165D3 /* ReduxMeDisposableBagProtocol.swift in Sources */,
+				403EC6A622A2B5E2003165D3 /* ReduxMe+SerialDispatchQueue.swift in Sources */,
+				403EC6B522A2C751003165D3 /* ReduxMe+CompoundReducer.swift in Sources */,
+				403EC68322A2B47C003165D3 /* ReduxMeActionDispatching.swift in Sources */,
+				403EC69922A2B47C003165D3 /* ReduxMeReducerProtocol.swift in Sources */,
+				403EC69722A2B47C003165D3 /* ReduxMeListenerProtocol.swift in Sources */,
 				403EC65B22A2B452003165D3 /* ReduxMe.swift in Sources */,
-				403EC6A022A2B562003165D3 /* RESSerialDispatchQueueing.swift in Sources */,
-				403EC6A522A2B5E2003165D3 /* RESDispatcher.swift in Sources */,
-				403EC6A222A2B596003165D3 /* RESDispatching.swift in Sources */,
-				403EC69B22A2B47C003165D3 /* RESReduxMiddlewareProtocol.swift in Sources */,
+				403EC6A022A2B562003165D3 /* ReduxMeSerialDispatchQueueing.swift in Sources */,
+				403EC6A222A2B596003165D3 /* ReduxMeDispatching.swift in Sources */,
+				403EC69B22A2B47C003165D3 /* ReduxMeMiddlewareProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

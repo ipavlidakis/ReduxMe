@@ -8,8 +8,4 @@
 
 import Foundation
 
-class ReduxMe {
-
-}
-
-struct State: Equatable, Hashable, Codable {}
+public enum ReduxMe {}

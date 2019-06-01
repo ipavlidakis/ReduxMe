@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4016146C22A2D3D600C6A11E /* ReduxMe_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4016146B22A2D3D600C6A11E /* ReduxMe_Tests.swift */; };
+		4016146E22A2D3D600C6A11E /* libReduxMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403EC65722A2B452003165D3 /* libReduxMe.a */; };
 		403EC65B22A2B452003165D3 /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC65A22A2B452003165D3 /* ReduxMe.swift */; };
 		403EC68222A2B47C003165D3 /* ReduxMeSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */; };
 		403EC68322A2B47C003165D3 /* ReduxMeActionDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC66522A2B47A003165D3 /* ReduxMeActionDispatching.swift */; };
@@ -30,6 +32,16 @@
 		403EC6B522A2C751003165D3 /* ReduxMe+CompoundReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403EC6B422A2C751003165D3 /* ReduxMe+CompoundReducer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4016146F22A2D3D600C6A11E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403EC64F22A2B452003165D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 403EC65622A2B452003165D3;
+			remoteInfo = ReduxMe;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		403EC65522A2B452003165D3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -43,6 +55,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4016146922A2D3D600C6A11E /* ReduxMe Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReduxMe Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4016146B22A2D3D600C6A11E /* ReduxMe_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_Tests.swift; sourceTree = "<group>"; };
+		4016146D22A2D3D600C6A11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		403EC65722A2B452003165D3 /* libReduxMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReduxMe.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		403EC65A22A2B452003165D3 /* ReduxMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe.swift; sourceTree = "<group>"; };
 		403EC66422A2B47A003165D3 /* ReduxMeSubstateListenerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateListenerProtocol.swift; sourceTree = "<group>"; };
@@ -68,6 +83,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4016146622A2D3D600C6A11E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016146E22A2D3D600C6A11E /* libReduxMe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		403EC65422A2B452003165D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,10 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4016146A22A2D3D600C6A11E /* ReduxMe Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4016146B22A2D3D600C6A11E /* ReduxMe_Tests.swift */,
+				4016146D22A2D3D600C6A11E /* Info.plist */,
+			);
+			path = "ReduxMe Tests";
+			sourceTree = "<group>";
+		};
 		403EC64E22A2B452003165D3 = {
 			isa = PBXGroup;
 			children = (
 				403EC65922A2B452003165D3 /* ReduxMe */,
+				4016146A22A2D3D600C6A11E /* ReduxMe Tests */,
 				403EC65822A2B452003165D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				403EC65722A2B452003165D3 /* libReduxMe.a */,
+				4016146922A2D3D600C6A11E /* ReduxMe Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +175,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4016146822A2D3D600C6A11E /* ReduxMe Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4016147322A2D3D600C6A11E /* Build configuration list for PBXNativeTarget "ReduxMe Tests" */;
+			buildPhases = (
+				4016146522A2D3D600C6A11E /* Sources */,
+				4016146622A2D3D600C6A11E /* Frameworks */,
+				4016146722A2D3D600C6A11E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4016147022A2D3D600C6A11E /* PBXTargetDependency */,
+			);
+			name = "ReduxMe Tests";
+			productName = "ReduxMe Tests";
+			productReference = 4016146922A2D3D600C6A11E /* ReduxMe Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		403EC65622A2B452003165D3 /* ReduxMe */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403EC65E22A2B452003165D3 /* Build configuration list for PBXNativeTarget "ReduxMe" */;
@@ -168,6 +220,9 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Ilias Pavlidakis";
 				TargetAttributes = {
+					4016146822A2D3D600C6A11E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
 					403EC65622A2B452003165D3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -186,11 +241,30 @@
 			projectRoot = "";
 			targets = (
 				403EC65622A2B452003165D3 /* ReduxMe */,
+				4016146822A2D3D600C6A11E /* ReduxMe Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		4016146722A2D3D600C6A11E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4016146522A2D3D600C6A11E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4016146C22A2D3D600C6A11E /* ReduxMe_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		403EC65322A2B452003165D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,7 +295,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4016147022A2D3D600C6A11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 403EC65622A2B452003165D3 /* ReduxMe */;
+			targetProxy = 4016146F22A2D3D600C6A11E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4016147122A2D3D600C6A11E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBW6JB7T2F;
+				INFOPLIST_FILE = "ReduxMe Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.tests.ReduxMe-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4016147222A2D3D600C6A11E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UBW6JB7T2F;
+				INFOPLIST_FILE = "ReduxMe Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipavlidakis.redux.me.tests.ReduxMe-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		403EC65C22A2B452003165D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -367,6 +485,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4016147322A2D3D600C6A11E /* Build configuration list for PBXNativeTarget "ReduxMe Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4016147122A2D3D600C6A11E /* Debug */,
+				4016147222A2D3D600C6A11E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		403EC65222A2B452003165D3 /* Build configuration list for PBXProject "ReduxMe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

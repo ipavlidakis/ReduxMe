@@ -1,5 +1,5 @@
 //
-//  ReduxMe.swift
+//  RESDispatching.swift
 //  ReduxMe
 //
 //  Created by Ilias Pavlidakis on 01/06/2019.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-class ReduxMe {
+protocol RESDispatching {
 
+    func async(_ block: @escaping () -> Void)
 }
-
-struct State: Equatable, Hashable, Codable {}

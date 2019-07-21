@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"ReduxMe::ReduxMePackageTests::ProductTarget" /* ReduxMePackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_89 /* Build configuration list for PBXAggregateTarget "ReduxMePackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_92 /* PBXTargetDependency */,
+			);
+			name = ReduxMePackageTests;
+			productName = ReduxMePackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_100 /* ReduxMe_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ReduxMe_StoreTests.swift */; };
+		OBJ_101 /* ReduxMeStub+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ReduxMeStub+Action.swift */; };
+		OBJ_102 /* ReduxMeStub+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ReduxMeStub+Dispatcher.swift */; };
+		OBJ_103 /* ReduxMeStub+Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* ReduxMeStub+Disposable.swift */; };
+		OBJ_104 /* ReduxMeStub+DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ReduxMeStub+DisposeBag.swift */; };
+		OBJ_105 /* ReduxMeStub+Listener.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* ReduxMeStub+Listener.swift */; };
+		OBJ_106 /* ReduxMeStub+Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* ReduxMeStub+Middleware.swift */; };
+		OBJ_107 /* ReduxMeStub+Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ReduxMeStub+Reducer.swift */; };
+		OBJ_108 /* ReduxMeStub+SerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* ReduxMeStub+SerialDispatchQueue.swift */; };
+		OBJ_109 /* ReduxMeStub+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ReduxMeStub+State.swift */; };
+		OBJ_110 /* ReduxMeStub+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* ReduxMeStub+Store.swift */; };
+		OBJ_111 /* ReduxMeStub+Substate.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* ReduxMeStub+Substate.swift */; };
+		OBJ_112 /* ReduxMeStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* ReduxMeStub.swift */; };
+		OBJ_114 /* ReduxMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "ReduxMe::ReduxMe::Product" /* ReduxMe.framework */; };
+		OBJ_60 /* ReduxMe+CompoundReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* ReduxMe+CompoundReducer.swift */; };
+		OBJ_61 /* ReduxMe+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ReduxMe+Dispatcher.swift */; };
+		OBJ_62 /* ReduxMe+DisposableBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* ReduxMe+DisposableBag.swift */; };
+		OBJ_63 /* ReduxMe+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* ReduxMe+Observable.swift */; };
+		OBJ_64 /* ReduxMe+SerialDispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* ReduxMe+SerialDispatchQueue.swift */; };
+		OBJ_65 /* ReduxMe+Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* ReduxMe+Store.swift */; };
+		OBJ_66 /* ReduxMeActionDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* ReduxMeActionDispatching.swift */; };
+		OBJ_67 /* ReduxMeActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* ReduxMeActionProtocol.swift */; };
+		OBJ_68 /* ReduxMeDispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* ReduxMeDispatching.swift */; };
+		OBJ_69 /* ReduxMeDisposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* ReduxMeDisposable.swift */; };
+		OBJ_70 /* ReduxMeDisposableBagProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* ReduxMeDisposableBagProtocol.swift */; };
+		OBJ_71 /* ReduxMeListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* ReduxMeListenerProtocol.swift */; };
+		OBJ_72 /* ReduxMeMiddlewareProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* ReduxMeMiddlewareProtocol.swift */; };
+		OBJ_73 /* ReduxMeObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ReduxMeObservableProtocol.swift */; };
+		OBJ_74 /* ReduxMeReducerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ReduxMeReducerProtocol.swift */; };
+		OBJ_75 /* ReduxMeSerialDispatchQueueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ReduxMeSerialDispatchQueueing.swift */; };
+		OBJ_76 /* ReduxMeStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ReduxMeStateProtocol.swift */; };
+		OBJ_77 /* ReduxMeStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ReduxMeStoreProtocol.swift */; };
+		OBJ_78 /* ReduxMeSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ReduxMeSubstateListenerProtocol.swift */; };
+		OBJ_79 /* ReduxMeSubstateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ReduxMeSubstateProtocol.swift */; };
+		OBJ_80 /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ReduxMe.swift */; };
+		OBJ_87 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_98 /* ReduxMe_DisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ReduxMe_DisposeBagTests.swift */; };
+		OBJ_99 /* ReduxMe_ObservableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ReduxMe_ObservableTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4033AEAE22E4A5EA0045168B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ReduxMe::ReduxMe";
+			remoteInfo = ReduxMe;
+		};
+		4033AEAF22E4A5EB0045168B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "ReduxMe::ReduxMeTests";
+			remoteInfo = ReduxMeTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* ReduxMe+CompoundReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+CompoundReducer.swift"; sourceTree = "<group>"; };
+		OBJ_11 /* ReduxMe+Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Dispatcher.swift"; sourceTree = "<group>"; };
+		OBJ_12 /* ReduxMe+DisposableBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+DisposableBag.swift"; sourceTree = "<group>"; };
+		OBJ_13 /* ReduxMe+Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Observable.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* ReduxMe+SerialDispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+SerialDispatchQueue.swift"; sourceTree = "<group>"; };
+		OBJ_15 /* ReduxMe+Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Store.swift"; sourceTree = "<group>"; };
+		OBJ_17 /* ReduxMeActionDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeActionDispatching.swift; sourceTree = "<group>"; };
+		OBJ_18 /* ReduxMeActionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeActionProtocol.swift; sourceTree = "<group>"; };
+		OBJ_19 /* ReduxMeDispatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeDispatching.swift; sourceTree = "<group>"; };
+		OBJ_20 /* ReduxMeDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeDisposable.swift; sourceTree = "<group>"; };
+		OBJ_21 /* ReduxMeDisposableBagProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeDisposableBagProtocol.swift; sourceTree = "<group>"; };
+		OBJ_22 /* ReduxMeListenerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeListenerProtocol.swift; sourceTree = "<group>"; };
+		OBJ_23 /* ReduxMeMiddlewareProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeMiddlewareProtocol.swift; sourceTree = "<group>"; };
+		OBJ_24 /* ReduxMeObservableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeObservableProtocol.swift; sourceTree = "<group>"; };
+		OBJ_25 /* ReduxMeReducerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeReducerProtocol.swift; sourceTree = "<group>"; };
+		OBJ_26 /* ReduxMeSerialDispatchQueueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSerialDispatchQueueing.swift; sourceTree = "<group>"; };
+		OBJ_27 /* ReduxMeStateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStateProtocol.swift; sourceTree = "<group>"; };
+		OBJ_28 /* ReduxMeStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStoreProtocol.swift; sourceTree = "<group>"; };
+		OBJ_29 /* ReduxMeSubstateListenerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateListenerProtocol.swift; sourceTree = "<group>"; };
+		OBJ_30 /* ReduxMeSubstateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateProtocol.swift; sourceTree = "<group>"; };
+		OBJ_31 /* ReduxMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe.swift; sourceTree = "<group>"; };
+		OBJ_35 /* ReduxMe_DisposeBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_DisposeBagTests.swift; sourceTree = "<group>"; };
+		OBJ_36 /* ReduxMe_ObservableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_ObservableTests.swift; sourceTree = "<group>"; };
+		OBJ_37 /* ReduxMe_StoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_StoreTests.swift; sourceTree = "<group>"; };
+		OBJ_39 /* ReduxMeStub+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Action.swift"; sourceTree = "<group>"; };
+		OBJ_40 /* ReduxMeStub+Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Dispatcher.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* ReduxMeStub+Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Disposable.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* ReduxMeStub+DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+DisposeBag.swift"; sourceTree = "<group>"; };
+		OBJ_43 /* ReduxMeStub+Listener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Listener.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* ReduxMeStub+Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Middleware.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* ReduxMeStub+Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Reducer.swift"; sourceTree = "<group>"; };
+		OBJ_46 /* ReduxMeStub+SerialDispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+SerialDispatchQueue.swift"; sourceTree = "<group>"; };
+		OBJ_47 /* ReduxMeStub+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+State.swift"; sourceTree = "<group>"; };
+		OBJ_48 /* ReduxMeStub+Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Store.swift"; sourceTree = "<group>"; };
+		OBJ_49 /* ReduxMeStub+Substate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMeStub+Substate.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* ReduxMeStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStub.swift; sourceTree = "<group>"; };
+		OBJ_54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"ReduxMe::ReduxMe::Product" /* ReduxMe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReduxMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ReduxMe::ReduxMeTests::Product" /* ReduxMeTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReduxMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_113 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_114 /* ReduxMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_16 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* ReduxMeActionDispatching.swift */,
+				OBJ_18 /* ReduxMeActionProtocol.swift */,
+				OBJ_19 /* ReduxMeDispatching.swift */,
+				OBJ_20 /* ReduxMeDisposable.swift */,
+				OBJ_21 /* ReduxMeDisposableBagProtocol.swift */,
+				OBJ_22 /* ReduxMeListenerProtocol.swift */,
+				OBJ_23 /* ReduxMeMiddlewareProtocol.swift */,
+				OBJ_24 /* ReduxMeObservableProtocol.swift */,
+				OBJ_25 /* ReduxMeReducerProtocol.swift */,
+				OBJ_26 /* ReduxMeSerialDispatchQueueing.swift */,
+				OBJ_27 /* ReduxMeStateProtocol.swift */,
+				OBJ_28 /* ReduxMeStoreProtocol.swift */,
+				OBJ_29 /* ReduxMeSubstateListenerProtocol.swift */,
+				OBJ_30 /* ReduxMeSubstateProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		OBJ_32 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_33 /* ReduxMeTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_33 /* ReduxMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_34 /* Implementation */,
+				OBJ_38 /* Stubs */,
+			);
+			name = ReduxMeTests;
+			path = Tests/ReduxMeTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_34 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_35 /* ReduxMe_DisposeBagTests.swift */,
+				OBJ_36 /* ReduxMe_ObservableTests.swift */,
+				OBJ_37 /* ReduxMe_StoreTests.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* ReduxMeStub+Action.swift */,
+				OBJ_40 /* ReduxMeStub+Dispatcher.swift */,
+				OBJ_41 /* ReduxMeStub+Disposable.swift */,
+				OBJ_42 /* ReduxMeStub+DisposeBag.swift */,
+				OBJ_43 /* ReduxMeStub+Listener.swift */,
+				OBJ_44 /* ReduxMeStub+Middleware.swift */,
+				OBJ_45 /* ReduxMeStub+Reducer.swift */,
+				OBJ_46 /* ReduxMeStub+SerialDispatchQueue.swift */,
+				OBJ_47 /* ReduxMeStub+State.swift */,
+				OBJ_48 /* ReduxMeStub+Store.swift */,
+				OBJ_49 /* ReduxMeStub+Substate.swift */,
+				OBJ_50 /* ReduxMeStub.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_54 /* README.md */,
+				OBJ_7 /* Sources */,
+				OBJ_32 /* Tests */,
+				OBJ_51 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"ReduxMe::ReduxMe::Product" /* ReduxMe.framework */,
+				"ReduxMe::ReduxMeTests::Product" /* ReduxMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* ReduxMe */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* ReduxMe */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Implementation */,
+				OBJ_16 /* Protocols */,
+				OBJ_31 /* ReduxMe.swift */,
+			);
+			name = ReduxMe;
+			path = Sources/ReduxMe;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* ReduxMe+CompoundReducer.swift */,
+				OBJ_11 /* ReduxMe+Dispatcher.swift */,
+				OBJ_12 /* ReduxMe+DisposableBag.swift */,
+				OBJ_13 /* ReduxMe+Observable.swift */,
+				OBJ_14 /* ReduxMe+SerialDispatchQueue.swift */,
+				OBJ_15 /* ReduxMe+Store.swift */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"ReduxMe::ReduxMe" /* ReduxMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_56 /* Build configuration list for PBXNativeTarget "ReduxMe" */;
+			buildPhases = (
+				OBJ_59 /* Sources */,
+				OBJ_81 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReduxMe;
+			productName = ReduxMe;
+			productReference = "ReduxMe::ReduxMe::Product" /* ReduxMe.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"ReduxMe::ReduxMeTests" /* ReduxMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_94 /* Build configuration list for PBXNativeTarget "ReduxMeTests" */;
+			buildPhases = (
+				OBJ_97 /* Sources */,
+				OBJ_113 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_115 /* PBXTargetDependency */,
+			);
+			name = ReduxMeTests;
+			productName = ReduxMeTests;
+			productReference = "ReduxMe::ReduxMeTests::Product" /* ReduxMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"ReduxMe::SwiftPMPackageDescription" /* ReduxMePackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_83 /* Build configuration list for PBXNativeTarget "ReduxMePackageDescription" */;
+			buildPhases = (
+				OBJ_86 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReduxMePackageDescription;
+			productName = ReduxMePackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 9999;
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "ReduxMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"ReduxMe::ReduxMe" /* ReduxMe */,
+				"ReduxMe::SwiftPMPackageDescription" /* ReduxMePackageDescription */,
+				"ReduxMe::ReduxMePackageTests::ProductTarget" /* ReduxMePackageTests */,
+				"ReduxMe::ReduxMeTests" /* ReduxMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_60 /* ReduxMe+CompoundReducer.swift in Sources */,
+				OBJ_61 /* ReduxMe+Dispatcher.swift in Sources */,
+				OBJ_62 /* ReduxMe+DisposableBag.swift in Sources */,
+				OBJ_63 /* ReduxMe+Observable.swift in Sources */,
+				OBJ_64 /* ReduxMe+SerialDispatchQueue.swift in Sources */,
+				OBJ_65 /* ReduxMe+Store.swift in Sources */,
+				OBJ_66 /* ReduxMeActionDispatching.swift in Sources */,
+				OBJ_67 /* ReduxMeActionProtocol.swift in Sources */,
+				OBJ_68 /* ReduxMeDispatching.swift in Sources */,
+				OBJ_69 /* ReduxMeDisposable.swift in Sources */,
+				OBJ_70 /* ReduxMeDisposableBagProtocol.swift in Sources */,
+				OBJ_71 /* ReduxMeListenerProtocol.swift in Sources */,
+				OBJ_72 /* ReduxMeMiddlewareProtocol.swift in Sources */,
+				OBJ_73 /* ReduxMeObservableProtocol.swift in Sources */,
+				OBJ_74 /* ReduxMeReducerProtocol.swift in Sources */,
+				OBJ_75 /* ReduxMeSerialDispatchQueueing.swift in Sources */,
+				OBJ_76 /* ReduxMeStateProtocol.swift in Sources */,
+				OBJ_77 /* ReduxMeStoreProtocol.swift in Sources */,
+				OBJ_78 /* ReduxMeSubstateListenerProtocol.swift in Sources */,
+				OBJ_79 /* ReduxMeSubstateProtocol.swift in Sources */,
+				OBJ_80 /* ReduxMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_87 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_98 /* ReduxMe_DisposeBagTests.swift in Sources */,
+				OBJ_99 /* ReduxMe_ObservableTests.swift in Sources */,
+				OBJ_100 /* ReduxMe_StoreTests.swift in Sources */,
+				OBJ_101 /* ReduxMeStub+Action.swift in Sources */,
+				OBJ_102 /* ReduxMeStub+Dispatcher.swift in Sources */,
+				OBJ_103 /* ReduxMeStub+Disposable.swift in Sources */,
+				OBJ_104 /* ReduxMeStub+DisposeBag.swift in Sources */,
+				OBJ_105 /* ReduxMeStub+Listener.swift in Sources */,
+				OBJ_106 /* ReduxMeStub+Middleware.swift in Sources */,
+				OBJ_107 /* ReduxMeStub+Reducer.swift in Sources */,
+				OBJ_108 /* ReduxMeStub+SerialDispatchQueue.swift in Sources */,
+				OBJ_109 /* ReduxMeStub+State.swift in Sources */,
+				OBJ_110 /* ReduxMeStub+Store.swift in Sources */,
+				OBJ_111 /* ReduxMeStub+Substate.swift in Sources */,
+				OBJ_112 /* ReduxMeStub.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ReduxMe::ReduxMe" /* ReduxMe */;
+			targetProxy = 4033AEAE22E4A5EA0045168B /* PBXContainerItemProxy */;
+		};
+		OBJ_92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "ReduxMe::ReduxMeTests" /* ReduxMeTests */;
+			targetProxy = 4033AEAF22E4A5EB0045168B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+					"DEBUG=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"SWIFT_PACKAGE=1",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) SWIFT_PACKAGE";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReduxMe.xcodeproj/ReduxMe_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ReduxMe;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ReduxMe;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReduxMe.xcodeproj/ReduxMe_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = ReduxMe;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ReduxMe;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		OBJ_84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		OBJ_85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 5 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		OBJ_90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReduxMe.xcodeproj/ReduxMeTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ReduxMeTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		OBJ_96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = ReduxMe.xcodeproj/ReduxMeTests_Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGET_NAME = ReduxMeTests;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "ReduxMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_56 /* Build configuration list for PBXNativeTarget "ReduxMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_57 /* Debug */,
+				OBJ_58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_83 /* Build configuration list for PBXNativeTarget "ReduxMePackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_84 /* Debug */,
+				OBJ_85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_89 /* Build configuration list for PBXAggregateTarget "ReduxMePackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_90 /* Debug */,
+				OBJ_91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_94 /* Build configuration list for PBXNativeTarget "ReduxMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_95 /* Debug */,
+				OBJ_96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

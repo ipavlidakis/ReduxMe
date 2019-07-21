@@ -2,3 +2,4 @@
 */project.xcworkspace/xcuserdata/*
 *__DerivedData*
 __DerivedData
+.build

@@ -8,7 +8,6 @@
 
 import Foundation
 
-@objc
 public protocol ReduxMeActionDispatching {
 
     func dispatch(

@@ -8,5 +8,4 @@
 
 import Foundation
 
-@objc
 public protocol ReduxMeActionProtocol {}

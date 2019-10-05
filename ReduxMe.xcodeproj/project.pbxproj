@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		406CA106234932990058E33C /* ReduxObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CA105234932990058E33C /* ReduxObservableProtocol.swift */; };
 		OBJ_100 /* ReduxMe_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ReduxMe_StoreTests.swift */; };
 		OBJ_101 /* ReduxMeStub+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* ReduxMeStub+Action.swift */; };
 		OBJ_102 /* ReduxMeStub+Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* ReduxMeStub+Dispatcher.swift */; };
@@ -51,10 +52,8 @@
 		OBJ_73 /* ReduxMeObservableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* ReduxMeObservableProtocol.swift */; };
 		OBJ_74 /* ReduxMeReducerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* ReduxMeReducerProtocol.swift */; };
 		OBJ_75 /* ReduxMeSerialDispatchQueueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* ReduxMeSerialDispatchQueueing.swift */; };
-		OBJ_76 /* ReduxMeStateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* ReduxMeStateProtocol.swift */; };
 		OBJ_77 /* ReduxMeStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* ReduxMeStoreProtocol.swift */; };
 		OBJ_78 /* ReduxMeSubstateListenerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* ReduxMeSubstateListenerProtocol.swift */; };
-		OBJ_79 /* ReduxMeSubstateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* ReduxMeSubstateProtocol.swift */; };
 		OBJ_80 /* ReduxMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* ReduxMe.swift */; };
 		OBJ_87 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_98 /* ReduxMe_DisposeBagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* ReduxMe_DisposeBagTests.swift */; };
@@ -79,6 +78,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		406CA105234932990058E33C /* ReduxObservableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxObservableProtocol.swift; sourceTree = "<group>"; };
 		OBJ_10 /* ReduxMe+CompoundReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+CompoundReducer.swift"; sourceTree = "<group>"; };
 		OBJ_11 /* ReduxMe+Dispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+Dispatcher.swift"; sourceTree = "<group>"; };
 		OBJ_12 /* ReduxMe+DisposableBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReduxMe+DisposableBag.swift"; sourceTree = "<group>"; };
@@ -95,10 +95,8 @@
 		OBJ_24 /* ReduxMeObservableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeObservableProtocol.swift; sourceTree = "<group>"; };
 		OBJ_25 /* ReduxMeReducerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeReducerProtocol.swift; sourceTree = "<group>"; };
 		OBJ_26 /* ReduxMeSerialDispatchQueueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSerialDispatchQueueing.swift; sourceTree = "<group>"; };
-		OBJ_27 /* ReduxMeStateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStateProtocol.swift; sourceTree = "<group>"; };
 		OBJ_28 /* ReduxMeStoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeStoreProtocol.swift; sourceTree = "<group>"; };
 		OBJ_29 /* ReduxMeSubstateListenerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateListenerProtocol.swift; sourceTree = "<group>"; };
-		OBJ_30 /* ReduxMeSubstateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMeSubstateProtocol.swift; sourceTree = "<group>"; };
 		OBJ_31 /* ReduxMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe.swift; sourceTree = "<group>"; };
 		OBJ_35 /* ReduxMe_DisposeBagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_DisposeBagTests.swift; sourceTree = "<group>"; };
 		OBJ_36 /* ReduxMe_ObservableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxMe_ObservableTests.swift; sourceTree = "<group>"; };
@@ -153,10 +151,9 @@
 				OBJ_24 /* ReduxMeObservableProtocol.swift */,
 				OBJ_25 /* ReduxMeReducerProtocol.swift */,
 				OBJ_26 /* ReduxMeSerialDispatchQueueing.swift */,
-				OBJ_27 /* ReduxMeStateProtocol.swift */,
 				OBJ_28 /* ReduxMeStoreProtocol.swift */,
 				OBJ_29 /* ReduxMeSubstateListenerProtocol.swift */,
-				OBJ_30 /* ReduxMeSubstateProtocol.swift */,
+				406CA105234932990058E33C /* ReduxObservableProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -208,7 +205,7 @@
 			path = Stubs;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -217,7 +214,6 @@
 				OBJ_32 /* Tests */,
 				OBJ_51 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_51 /* Products */ = {
@@ -328,7 +324,7 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_51 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -359,13 +355,12 @@
 				OBJ_70 /* ReduxMeDisposableBagProtocol.swift in Sources */,
 				OBJ_71 /* ReduxMeListenerProtocol.swift in Sources */,
 				OBJ_72 /* ReduxMeMiddlewareProtocol.swift in Sources */,
+				406CA106234932990058E33C /* ReduxObservableProtocol.swift in Sources */,
 				OBJ_73 /* ReduxMeObservableProtocol.swift in Sources */,
 				OBJ_74 /* ReduxMeReducerProtocol.swift in Sources */,
 				OBJ_75 /* ReduxMeSerialDispatchQueueing.swift in Sources */,
-				OBJ_76 /* ReduxMeStateProtocol.swift in Sources */,
 				OBJ_77 /* ReduxMeStoreProtocol.swift in Sources */,
 				OBJ_78 /* ReduxMeSubstateListenerProtocol.swift in Sources */,
-				OBJ_79 /* ReduxMeSubstateProtocol.swift in Sources */,
 				OBJ_80 /* ReduxMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import ReduxMe
 
 extension ReduxMe.Stub {
 
-    struct State: ReduxMeStateProtocol, Equatable {
+    struct State: ReduxObservableProtocol, Equatable {
 
         let substate: ReduxMe.Stub.Substate
 

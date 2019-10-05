@@ -13,7 +13,7 @@ extension ReduxMe.Stub {
 
     final class Reducer {
 
-        private(set) var reduceWasCalled: [(state: ReduxMeStateProtocol, action: ReduxMeActionProtocol)] = []
+        private(set) var reduceWasCalled: [(state: ReduxObservableProtocol, action: ReduxMeActionProtocol)] = []
         var reduceStubResult: Any! = ReduxMe.Stub.State.initial
     }
 }
@@ -22,7 +22,7 @@ extension ReduxMe.Stub.Reducer: ReduxMeReducerProtocol {
 
     func reduce<State>(
         _ state: State,
-        _ action: ReduxMeActionProtocol) -> State where State : ReduxMeStateProtocol {
+        _ action: ReduxMeActionProtocol) -> State where State : ReduxObservableProtocol {
 
         reduceWasCalled.append((state, action))
 

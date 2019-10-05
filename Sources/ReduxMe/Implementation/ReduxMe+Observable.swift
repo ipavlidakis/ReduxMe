@@ -10,17 +10,17 @@ import Foundation
 
 public extension ReduxMe {
 
-    final class Observable<State: ReduxMeStateProtocol, Substate: ReduxMeSubstateProtocol & Equatable> {
+    final class Observable<State: ReduxObservableProtocol, ObservableType: ReduxObservableProtocol & Equatable> {
 
         public typealias StateType = State
-        public typealias SubstateType = Substate
+        public typealias ObservableType = ObservableType
         private let _identifier: UUID = UUID()
 
         private var unsubscribeBlock: UnsubscribeListener?
 
         private var onChangeUpdateBlock: UpdateBlock?
         private var onChangeDisposeBlock: (() -> Void)?
-        private var lastUsedSubstate: Substate?
+        private var lastUsedSubstate: ObservableType?
         private var store: ReduxMe.Store<State>!
 
         private let transformationBlock: TransformationBlock

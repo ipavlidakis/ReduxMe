@@ -11,7 +11,7 @@ import ReduxMe
 
 extension ReduxMe.Stub {
 
-    struct Substate: ReduxMeSubstateProtocol, Equatable {
+    struct Substate: ReduxObservableProtocol, Equatable {
 
         let identifier = UUID()
 

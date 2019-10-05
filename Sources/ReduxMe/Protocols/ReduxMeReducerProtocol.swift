@@ -10,7 +10,7 @@ import Foundation
 
 public protocol ReduxMeReducerProtocol {
 
-    func reduce<State: ReduxMeStateProtocol>(
+    func reduce<State: ReduxObservableProtocol>(
         _ state: State,
         _ action: ReduxMeActionProtocol) -> State
 }

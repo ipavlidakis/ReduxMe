@@ -13,7 +13,7 @@ extension ReduxMe.Stub {
 
     final class Middleware {
 
-        private(set) var applyStateWasCalled: [(state: ReduxMeStateProtocol, action: ReduxMeActionProtocol)] = []
+        private(set) var applyStateWasCalled: [(state: ReduxObservableProtocol, action: ReduxMeActionProtocol)] = []
     }
 }
 
@@ -21,7 +21,7 @@ extension ReduxMe.Stub.Middleware: ReduxMeMiddlewareProtocol {
 
     func apply<State>(
         _ state: State,
-        _ action: ReduxMeActionProtocol) where State : ReduxMeStateProtocol {
+        _ action: ReduxMeActionProtocol) where State : ReduxObservableProtocol {
 
         applyStateWasCalled.append((state, action))
     }

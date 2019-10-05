@@ -10,11 +10,11 @@ import Foundation
 
 public protocol ReduxMeObservableProtocol {
 
-    associatedtype StateType: ReduxMeStateProtocol
-    associatedtype SubstateType: ReduxMeSubstateProtocol
+    associatedtype StateType: ReduxObservableProtocol
+    associatedtype ObservableType: ReduxObservableProtocol
 
-    typealias UpdateBlock = (_ newSubstate: SubstateType) -> Void
-    typealias TransformationBlock = (_ state: StateType) -> SubstateType
+    typealias UpdateBlock = (_ newSubstate: ObservableType) -> Void
+    typealias TransformationBlock = (_ state: StateType) -> ObservableType
 
     @discardableResult func subscribe(on store: ReduxMe.Store<StateType>) -> Self
     @discardableResult func onChange(_ onNextChangeUpdateBlock: @escaping UpdateBlock) -> Self

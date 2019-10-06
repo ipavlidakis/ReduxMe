@@ -10,7 +10,7 @@ import Foundation
 
 public extension ReduxMe {
 
-    final class Observable<State: ReduxObservableProtocol, ObservableType: ReduxObservableProtocol & Equatable> {
+    final class Observable<State: ReduxMeObservableTypeProtocol, ObservableType: ReduxMeObservableTypeProtocol & Equatable> {
 
         public typealias StateType = State
         public typealias ObservableType = ObservableType
@@ -19,6 +19,7 @@ public extension ReduxMe {
         private var unsubscribeBlock: UnsubscribeListener?
 
         private var onChangeUpdateBlock: UpdateBlock?
+        private var onChangeValidateBlock: ValidationBlock?
         private var onChangeDisposeBlock: (() -> Void)?
         private var lastUsedSubstate: ObservableType?
         private var store: ReduxMe.Store<State>!
@@ -67,6 +68,15 @@ extension ReduxMe.Observable: ReduxMeObservableProtocol {
     }
 
     @discardableResult
+    public func onChangeValidate(
+        _ onNextChangeValidateBlock: @escaping ValidationBlock) -> Self {
+
+        self.onChangeValidateBlock = onNextChangeValidateBlock
+
+        return self
+    }
+
+    @discardableResult
     public func thenUnsubscribe() -> Self {
 
         onChangeDisposeBlock = { [weak self] in
@@ -104,6 +114,13 @@ extension ReduxMe.Observable: ReduxMeListenerProtocol {
         let substate = transformationBlock(store.state)
         let localLastUsedSubstate = self.lastUsedSubstate
         self.lastUsedSubstate = substate
+
+        if let validationBlock = onChangeValidateBlock {
+
+            guard validationBlock(substate, localLastUsedSubstate) else {
+                return
+            }
+        }
 
         if localLastUsedSubstate == nil {
 

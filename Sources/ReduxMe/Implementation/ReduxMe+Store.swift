@@ -10,7 +10,7 @@ import Foundation
 
 extension ReduxMe {
 
-    open class Store<State: ReduxObservableProtocol>: ReduxMeActionDispatching, ReduxMeStoreProtocol {
+    open class Store<State: ReduxMeObservableTypeProtocol>: ReduxMeActionDispatching, ReduxMeStoreProtocol {
 
         private let reducer: ReduxMeReducerProtocol
         private let serialActionDispatchQueue: ReduxMeSerialDispatchQueueing

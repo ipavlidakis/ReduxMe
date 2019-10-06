@@ -10,7 +10,7 @@ import Foundation
 
 public protocol ReduxMeSubstateListenerProtocol {
 
-    associatedtype Substate: ReduxObservableProtocol
+    associatedtype Substate: ReduxMeObservableTypeProtocol
 
     func substateUpdated(
         _ newState: Substate)

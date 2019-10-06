@@ -19,7 +19,7 @@ extension ReduxMe {
 extension ReduxMe.CompoundReducer: ReduxMeReducerProtocol {
 
     func reduce<T>(
-        _ state: T, _ action: ReduxMeActionProtocol) -> T where T : ReduxObservableProtocol {
+        _ state: T, _ action: ReduxMeActionProtocol) -> T where T : ReduxMeObservableTypeProtocol {
 
         return reducers.reduce(state) { $1.reduce($0, action) }
     }

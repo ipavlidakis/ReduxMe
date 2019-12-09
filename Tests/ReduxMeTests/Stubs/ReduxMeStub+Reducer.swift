@@ -9,24 +9,24 @@
 import Foundation
 import ReduxMe
 
-extension ReduxMe.Stub {
-
-    final class Reducer {
-
-        private(set) var reduceWasCalled: [(state: ReduxObservableProtocol, action: ReduxMeActionProtocol)] = []
-        var reduceStubResult: Any! = ReduxMe.Stub.State.initial
-    }
-}
-
-extension ReduxMe.Stub.Reducer: ReduxMeReducerProtocol {
-
-    func reduce<State>(
-        _ state: State,
-        _ action: ReduxMeActionProtocol) -> State where State : ReduxObservableProtocol {
-
-        reduceWasCalled.append((state, action))
-
-        return reduceStubResult as! State
-    }
-}
-
+//extension ReduxMe.Stub {
+//
+//    final class Reducer {
+//
+//        private(set) var reduceWasCalled: [(state: ReduxMeObservableProtocol, action: ReduxMeActionProtocol)] = []
+//        var reduceStubResult: Any! = ReduxMe.Stub.State.initial
+//    }
+//}
+//
+//extension ReduxMe.Stub.Reducer: ReduxMeReducerProtocol {
+//
+//    func reduce<State>(
+//        _ state: State,
+//        _ action: ReduxMeActionProtocol) -> State where State : ReduxMeObservableProtocol {
+//
+//        reduceWasCalled.append((state, action))
+//
+//        return reduceStubResult as! State
+//    }
+//}
+//

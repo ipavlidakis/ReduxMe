@@ -9,12 +9,13 @@
 import Foundation
 import ReduxMe
 
-extension ReduxMe.Stub {
-
-    struct State: ReduxObservableProtocol, Equatable {
-
-        let substate: ReduxMe.Stub.Substate
-
-        static let initial = State(substate: .initial)
-    }
-}
+//extension ReduxMe.Stub {
+//
+//    struct State: ReduxMeObservableProtocol, Equatable {
+//        typealias StateType = ReduxMe.Stub.Substate
+//        typealias ObservableType = ReduxMe.Stub.Substate
+//        let substate: ReduxMe.Stub.Substate
+//
+//        static let initial = State(substate: .initial)
+//    }
+//}

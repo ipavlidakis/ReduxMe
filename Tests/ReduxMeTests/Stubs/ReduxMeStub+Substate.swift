@@ -9,12 +9,12 @@
 import Foundation
 import ReduxMe
 
-extension ReduxMe.Stub {
-
-    struct Substate: ReduxObservableProtocol, Equatable {
-
-        let identifier = UUID()
-
-        static let initial = Substate()
-    }
-}
+//extension ReduxMe.Stub {
+//
+//    struct Substate: ReduxMeObservableProtocol, Equatable {
+//
+//        let identifier = UUID()
+//
+//        static let initial = Substate()
+//    }
+//}

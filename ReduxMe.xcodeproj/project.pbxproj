@@ -6,20 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"ReduxMe::ReduxMePackageTests::ProductTarget" /* ReduxMePackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_89 /* Build configuration list for PBXAggregateTarget "ReduxMePackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_92 /* PBXTargetDependency */,
-			);
-			name = ReduxMePackageTests;
-			productName = ReduxMePackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		406CA106234932990058E33C /* ReduxMeObservableTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CA105234932990058E33C /* ReduxMeObservableTypeProtocol.swift */; };
 		OBJ_100 /* ReduxMe_StoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* ReduxMe_StoreTests.swift */; };
@@ -67,13 +53,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = "ReduxMe::ReduxMe";
 			remoteInfo = ReduxMe;
-		};
-		4033AEAF22E4A5EB0045168B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "ReduxMe::ReduxMeTests";
-			remoteInfo = ReduxMeTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -330,9 +309,8 @@
 			projectRoot = "";
 			targets = (
 				"ReduxMe::ReduxMe" /* ReduxMe */,
-				"ReduxMe::SwiftPMPackageDescription" /* ReduxMePackageDescription */,
-				"ReduxMe::ReduxMePackageTests::ProductTarget" /* ReduxMePackageTests */,
 				"ReduxMe::ReduxMeTests" /* ReduxMeTests */,
+				"ReduxMe::SwiftPMPackageDescription" /* ReduxMePackageDescription */,
 			);
 		};
 /* End PBXProject section */
@@ -402,11 +380,6 @@
 			isa = PBXTargetDependency;
 			target = "ReduxMe::ReduxMe" /* ReduxMe */;
 			targetProxy = 4033AEAE22E4A5EA0045168B /* PBXContainerItemProxy */;
-		};
-		OBJ_92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "ReduxMe::ReduxMeTests" /* ReduxMeTests */;
-			targetProxy = 4033AEAF22E4A5EB0045168B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -536,18 +509,6 @@
 			};
 			name = Release;
 		};
-		OBJ_90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		OBJ_95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -624,15 +585,6 @@
 			buildConfigurations = (
 				OBJ_84 /* Debug */,
 				OBJ_85 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		OBJ_89 /* Build configuration list for PBXAggregateTarget "ReduxMePackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_90 /* Debug */,
-				OBJ_91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

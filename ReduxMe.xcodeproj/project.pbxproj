@@ -116,7 +116,7 @@
 		OBJ_54 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		"ReduxMe::ReduxMe::Product" /* ReduxMe.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ReduxMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"ReduxMe::ReduxMeTests::Product" /* ReduxMeTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReduxMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"ReduxMe::ReduxMeTests::Product" /* ReduxMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = ReduxMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,7 +417,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;

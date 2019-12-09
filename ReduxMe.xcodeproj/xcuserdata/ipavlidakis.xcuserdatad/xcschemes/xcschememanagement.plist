@@ -12,7 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>ReduxMe::ReduxMe</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>ReduxMe::ReduxMePackageTests::ProductTarget</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>ReduxMe::ReduxMeTests</key>
 		<dict>
 			<key>primary</key>
 			<true/>

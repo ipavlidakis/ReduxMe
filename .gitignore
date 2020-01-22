@@ -1,6 +1,7 @@
 .DS_Store
 /.build
 /Packages
-/*.xcodeproj
 xcuserdata/
 __DerivedData
+/ReduxMe.xcodeproj/COpenCombineHelpers_Info.plist
+/ReduxMe.xcodeproj/OpenCombine_Info.plist

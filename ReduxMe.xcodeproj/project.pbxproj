@@ -231,10 +231,10 @@
       "OBJ_131" = {
          isa = "PBXGroup";
          children = (
-            "OpenCombine::OpenCombine::Product",
-            "ReduxMe::ReduxMeTests::Product",
             "OpenCombine::COpenCombineHelpers::Product",
-            "ReduxMe::ReduxMe::Product"
+            "ReduxMe::ReduxMe::Product",
+            "ReduxMe::ReduxMeTests::Product",
+            "OpenCombine::OpenCombine::Product"
          );
          name = "Products";
          path = "";

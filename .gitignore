@@ -3,3 +3,5 @@ __DerivedData
 /.build
 /.swiftpm
 xcschemes
+WorkspaceSettings.xcsettings
+UserInterfaceState.xcuserstate

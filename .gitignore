@@ -1,5 +1,6 @@
-*DerivedData/*
-*/project.xcworkspace/xcuserdata/*
-*__DerivedData*
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
 __DerivedData
-.build

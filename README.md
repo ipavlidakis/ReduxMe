@@ -1,13 +1,10 @@
 # ReduxMe
 Reactive Redux scaffolding for iOS
 
-----
-
 ## <a name="features"></a>Features
 
 - Easy to use  ✓
 - Fully customizable  ✓
-- Handles Button with single Action  ✓
 
 ## <a name="requirements"></a>Requirements
 

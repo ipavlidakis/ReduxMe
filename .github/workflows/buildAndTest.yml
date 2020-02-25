@@ -11,13 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.0.0
       - name: "Install SPM packages"
-        run: |
-          bash <(swift package update)>
+        run: swift package update
       - name: Build and test
-        run: |
-          xcodebuild clean test -project ReduxMe.xcodeproj -scheme ReduxMe -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+        run: xcodebuild clean test -project ReduxMe.xcodeproj -scheme ReduxMe -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
         env:
           destination: ${{ matrix.destination }}
-      - name: "Code coverage"
-        run:
-          bash <(curl -s https://codecov.io/bash)
+      - name: Code coverage
+        run: curl -s https://codecov.io/bash

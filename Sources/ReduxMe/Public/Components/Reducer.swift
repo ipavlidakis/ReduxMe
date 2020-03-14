@@ -13,7 +13,7 @@ public struct Reducer<State: Hashable> {
     private let identifier: AnyHashable
     private let reduceBlock: (_ state: State, _ action: Action) -> State
 
-    init(identifier: AnyHashable = UUID(),
+    public init(identifier: AnyHashable = UUID(),
          _ reduceBlock: @escaping (_ state: State, _ action: Action) -> State) {
 
         self.identifier = identifier

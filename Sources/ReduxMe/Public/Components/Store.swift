@@ -18,7 +18,7 @@ public final class Store<State: Hashable> {
     private var middleware: [Middleware<State>]
     private let subject: CurrentValueSubject<State, Never>
 
-    private var state: State { subject.value }
+    public var state: State { subject.value }
 
     public convenience init(
         state: State,

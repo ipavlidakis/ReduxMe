@@ -13,12 +13,10 @@ final class StoreTests: XCTestCase {
 
     private lazy var initialState: Stub.State! = Stub.State(identifier: UUID(), substate: Stub.Substate(identifier: UUID()))
     private lazy var stubSerialDispatcher: Stub.SerialDispatcher! = .init()
-    private lazy var stubMainQueueDispatcher: Stub.SyncDispatcher! = .init()
 
     override func tearDown() {
         initialState = nil
         stubSerialDispatcher = nil
-        stubMainQueueDispatcher = nil
     }
 }
 
@@ -39,7 +37,6 @@ extension StoreTests {
             state: initialState,
             reducers: [reducer],
             serialDispatcher: stubSerialDispatcher,
-            mainQueueDispatcher: stubMainQueueDispatcher,
             middleware: [])
 
         var counter = 0
@@ -71,7 +68,6 @@ extension StoreTests {
             state: initialState,
             reducers: [reducer1, reducer2],
             serialDispatcher: stubSerialDispatcher,
-            mainQueueDispatcher: stubMainQueueDispatcher,
             middleware: [])
 
         store.dispatch(Stub.Action())
@@ -96,7 +92,6 @@ extension StoreTests {
             state: initialState,
             reducers: [],
             serialDispatcher: stubSerialDispatcher,
-            mainQueueDispatcher: stubMainQueueDispatcher,
             middleware: [middleware1])
         store.intercept(with: middleware2)
 

@@ -13,7 +13,6 @@ public final class Store<State: Hashable> {
 
     private let reducer: Reducer<State>
     private let serialDispatcher: SerialDispatching
-    private let mainQueueDispatcher: DispatchQueing
 
     private var middleware: [Middleware<State>]
     private let subject: CurrentValueSubject<State, Never>
@@ -29,7 +28,6 @@ public final class Store<State: Hashable> {
             state: state,
             reducers: reducers,
             serialDispatcher: SerialDispatcher(),
-            mainQueueDispatcher: DispatchQueue.main,
             middleware: middleware)
     }
 
@@ -37,13 +35,11 @@ public final class Store<State: Hashable> {
         state: State,
         reducers: [Reducer<State>],
         serialDispatcher: SerialDispatching,
-        mainQueueDispatcher: DispatchQueing,
         middleware: [Middleware<State>]
     ) {
         self.subject = CurrentValueSubject<State, Never>(state)
         self.reducer = Reducer<State>.compound(reducers)
         self.serialDispatcher = serialDispatcher
-        self.mainQueueDispatcher = mainQueueDispatcher
         self.middleware = middleware
     }
 }
@@ -62,7 +58,7 @@ public extension Store {
 
             let newState = self.reducer.reduce(initialState, action)
 
-            self.mainQueueDispatcher.async { self.subject.value = newState }
+            self.subject.value = newState
         }
     }
 

@@ -1,4 +1,7 @@
-*DerivedData/*
-*/project.xcworkspace/xcuserdata/*
-*__DerivedData*
+.DS_Store
 __DerivedData
+/.build
+/.swiftpm
+xcschemes
+WorkspaceSettings.xcsettings
+UserInterfaceState.xcuserstate

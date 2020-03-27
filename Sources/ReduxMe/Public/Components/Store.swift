@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import OpenCombine
+import Combine
 
 public final class Store<State: Hashable> {
 

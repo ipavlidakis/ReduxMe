@@ -17,12 +17,9 @@
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_131";
+         productRefGroup = "OBJ_34";
          projectDirPath = ".";
          targets = (
-            "OpenCombine::COpenCombineHelpers",
-            "OpenCombine::OpenCombine",
-            "OpenCombine::SwiftPMPackageDescription",
             "ReduxMe::ReduxMe",
             "ReduxMe::SwiftPMPackageDescription",
             "ReduxMe::ReduxMePackageTests::ProductTarget",
@@ -38,109 +35,9 @@
          path = "Components";
          sourceTree = "<group>";
       };
-      "OBJ_100" = {
-         isa = "PBXFileReference";
-         path = "Publishers.PrefixWhile.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_101" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Print.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_102" = {
-         isa = "PBXFileReference";
-         path = "Publishers.ReceiveOn.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_103" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Reduce.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_104" = {
-         isa = "PBXFileReference";
-         path = "Publishers.RemoveDuplicates.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_105" = {
-         isa = "PBXFileReference";
-         path = "Publishers.ReplaceEmpty.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_106" = {
-         isa = "PBXFileReference";
-         path = "Publishers.ReplaceError.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_107" = {
-         isa = "PBXFileReference";
-         path = "Publishers.ReplaceNil.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_108" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Scan.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_109" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Sequence.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_11" = {
          isa = "PBXFileReference";
          path = "SerialDispatcher.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_110" = {
-         isa = "PBXFileReference";
-         path = "Publishers.SetFailureType.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_111" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Share.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_112" = {
-         isa = "PBXFileReference";
-         path = "Publishers.SubscribeOn.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_113" = {
-         isa = "PBXFileReference";
-         path = "Publishers.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_114" = {
-         isa = "PBXFileReference";
-         path = "Record.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_115" = {
-         isa = "PBXFileReference";
-         path = "Result.Publisher.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_116" = {
-         isa = "PBXFileReference";
-         path = "Result.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_117" = {
-         isa = "PBXFileReference";
-         path = "Scheduler.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_118" = {
-         isa = "PBXFileReference";
-         path = "Subject.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_119" = {
-         isa = "PBXFileReference";
-         path = "Subscriber.swift";
          sourceTree = "<group>";
       };
       "OBJ_12" = {
@@ -152,112 +49,10 @@
          path = "Extensions";
          sourceTree = "<group>";
       };
-      "OBJ_120" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_121",
-            "OBJ_122",
-            "OBJ_123",
-            "OBJ_124",
-            "OBJ_125"
-         );
-         name = "Subscribers";
-         path = "Subscribers";
-         sourceTree = "<group>";
-      };
-      "OBJ_121" = {
-         isa = "PBXFileReference";
-         path = "Subscribers.Assign.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_122" = {
-         isa = "PBXFileReference";
-         path = "Subscribers.Completion.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_123" = {
-         isa = "PBXFileReference";
-         path = "Subscribers.Demand.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_124" = {
-         isa = "PBXFileReference";
-         path = "Subscribers.Sink.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_125" = {
-         isa = "PBXFileReference";
-         path = "Subscribers.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_126" = {
-         isa = "PBXFileReference";
-         path = "Subscription.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_127" = {
-         isa = "PBXFileReference";
-         path = "Subscriptions.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_128" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "OpenCombineDispatch";
-         path = ".build/checkouts/OpenCombine/Sources/OpenCombineDispatch";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_129" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "OpenCombineFoundation";
-         path = ".build/checkouts/OpenCombine/Sources/OpenCombineFoundation";
-         sourceTree = "SOURCE_ROOT";
-      };
       "OBJ_13" = {
          isa = "PBXFileReference";
          path = "DispatchQueue+DispatchQueing.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_130" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/ipavlidakis/Projects/ReduxMe/.build/checkouts/OpenCombine/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_131" = {
-         isa = "PBXGroup";
-         children = (
-            "OpenCombine::COpenCombineHelpers::Product",
-            "ReduxMe::ReduxMe::Product",
-            "ReduxMe::ReduxMeTests::Product",
-            "OpenCombine::OpenCombine::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_136" = {
-         isa = "PBXFileReference";
-         path = "__DerivedData";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_137" = {
-         isa = "PBXFileReference";
-         path = "README.md";
-         sourceTree = "<group>";
-      };
-      "OBJ_139" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_140",
-            "OBJ_141"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_14" = {
          isa = "PBXGroup";
@@ -269,387 +64,15 @@
          path = "Protocols";
          sourceTree = "<group>";
       };
-      "OBJ_140" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_CXX_LANGUAGE_STANDARD = "c++1z";
-            CLANG_ENABLE_MODULES = "YES";
-            DEFINES_MODULE = "YES";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/COpenCombineHelpers_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "COpenCombineHelpers";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "COpenCombineHelpers";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_141" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_CXX_LANGUAGE_STANDARD = "c++1z";
-            CLANG_ENABLE_MODULES = "YES";
-            DEFINES_MODULE = "YES";
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/COpenCombineHelpers_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "COpenCombineHelpers";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            TARGET_NAME = "COpenCombineHelpers";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_142" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_143"
-         );
-      };
-      "OBJ_143" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
-      };
-      "OBJ_144" = {
-         isa = "PBXHeadersBuildPhase";
-         files = (
-            "OBJ_145"
-         );
-      };
-      "OBJ_145" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
-         settings = {
-            ATTRIBUTES = (
-               "Public"
-            );
-         };
-      };
-      "OBJ_146" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_148" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_149",
-            "OBJ_150"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_149" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/OpenCombine_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "OpenCombine";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "OpenCombine";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
       "OBJ_15" = {
          isa = "PBXFileReference";
          path = "DispatchQueing.swift";
          sourceTree = "<group>";
       };
-      "OBJ_150" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/OpenCombine_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "OpenCombine";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "OpenCombine";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_151" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_152",
-            "OBJ_153",
-            "OBJ_154",
-            "OBJ_155",
-            "OBJ_156",
-            "OBJ_157",
-            "OBJ_158",
-            "OBJ_159",
-            "OBJ_160",
-            "OBJ_161",
-            "OBJ_162",
-            "OBJ_163",
-            "OBJ_164",
-            "OBJ_165",
-            "OBJ_166",
-            "OBJ_167",
-            "OBJ_168",
-            "OBJ_169",
-            "OBJ_170",
-            "OBJ_171",
-            "OBJ_172",
-            "OBJ_173",
-            "OBJ_174",
-            "OBJ_175",
-            "OBJ_176",
-            "OBJ_177",
-            "OBJ_178",
-            "OBJ_179",
-            "OBJ_180",
-            "OBJ_181",
-            "OBJ_182",
-            "OBJ_183",
-            "OBJ_184",
-            "OBJ_185",
-            "OBJ_186",
-            "OBJ_187",
-            "OBJ_188",
-            "OBJ_189",
-            "OBJ_190",
-            "OBJ_191",
-            "OBJ_192",
-            "OBJ_193",
-            "OBJ_194",
-            "OBJ_195",
-            "OBJ_196",
-            "OBJ_197",
-            "OBJ_198",
-            "OBJ_199",
-            "OBJ_200",
-            "OBJ_201",
-            "OBJ_202",
-            "OBJ_203",
-            "OBJ_204",
-            "OBJ_205",
-            "OBJ_206",
-            "OBJ_207",
-            "OBJ_208",
-            "OBJ_209",
-            "OBJ_210",
-            "OBJ_211",
-            "OBJ_212",
-            "OBJ_213",
-            "OBJ_214",
-            "OBJ_215",
-            "OBJ_216",
-            "OBJ_217",
-            "OBJ_218",
-            "OBJ_219",
-            "OBJ_220",
-            "OBJ_221",
-            "OBJ_222",
-            "OBJ_223",
-            "OBJ_224",
-            "OBJ_225",
-            "OBJ_226",
-            "OBJ_227",
-            "OBJ_228",
-            "OBJ_229",
-            "OBJ_230",
-            "OBJ_231",
-            "OBJ_232",
-            "OBJ_233",
-            "OBJ_234",
-            "OBJ_235"
-         );
-      };
-      "OBJ_152" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
-      };
-      "OBJ_153" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
-      };
-      "OBJ_154" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
-      };
-      "OBJ_155" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
-      };
-      "OBJ_156" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
-      };
-      "OBJ_157" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
-      };
-      "OBJ_158" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
-      };
-      "OBJ_159" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
-      };
       "OBJ_16" = {
          isa = "PBXFileReference";
          path = "SerialDispatching.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_160" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_49";
-      };
-      "OBJ_161" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
-      };
-      "OBJ_162" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
-      };
-      "OBJ_163" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
-      };
-      "OBJ_164" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
-      };
-      "OBJ_165" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
-      };
-      "OBJ_166" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
-      };
-      "OBJ_167" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_57";
-      };
-      "OBJ_168" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
-      };
-      "OBJ_169" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
       };
       "OBJ_17" = {
          isa = "PBXGroup";
@@ -660,46 +83,6 @@
          name = "Public";
          path = "Public";
          sourceTree = "<group>";
-      };
-      "OBJ_170" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
-      };
-      "OBJ_171" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
-      };
-      "OBJ_172" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_62";
-      };
-      "OBJ_173" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
-      };
-      "OBJ_174" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
-      };
-      "OBJ_175" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_66";
-      };
-      "OBJ_176" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_67";
-      };
-      "OBJ_177" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_68";
-      };
-      "OBJ_178" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
-      };
-      "OBJ_179" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
       };
       "OBJ_18" = {
          isa = "PBXGroup";
@@ -712,90 +95,10 @@
          path = "Components";
          sourceTree = "<group>";
       };
-      "OBJ_180" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
-      };
-      "OBJ_181" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
-      };
-      "OBJ_182" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
-      };
-      "OBJ_183" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_74";
-      };
-      "OBJ_184" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_75";
-      };
-      "OBJ_185" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_76";
-      };
-      "OBJ_186" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
-      };
-      "OBJ_187" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
-      };
-      "OBJ_188" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
-      };
-      "OBJ_189" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_80";
-      };
       "OBJ_19" = {
          isa = "PBXFileReference";
          path = "Middleware.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_190" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_81";
-      };
-      "OBJ_191" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
-      };
-      "OBJ_192" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_83";
-      };
-      "OBJ_193" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_84";
-      };
-      "OBJ_194" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_85";
-      };
-      "OBJ_195" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_86";
-      };
-      "OBJ_196" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_87";
-      };
-      "OBJ_197" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_88";
-      };
-      "OBJ_198" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_89";
-      };
-      "OBJ_199" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_90";
       };
       "OBJ_2" = {
          isa = "XCConfigurationList";
@@ -811,90 +114,10 @@
          path = "Reducer.swift";
          sourceTree = "<group>";
       };
-      "OBJ_200" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_91";
-      };
-      "OBJ_201" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_92";
-      };
-      "OBJ_202" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_93";
-      };
-      "OBJ_203" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_94";
-      };
-      "OBJ_204" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_95";
-      };
-      "OBJ_205" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_96";
-      };
-      "OBJ_206" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_97";
-      };
-      "OBJ_207" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_98";
-      };
-      "OBJ_208" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_99";
-      };
-      "OBJ_209" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_100";
-      };
       "OBJ_21" = {
          isa = "PBXFileReference";
          path = "Store.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_210" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_101";
-      };
-      "OBJ_211" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_102";
-      };
-      "OBJ_212" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_103";
-      };
-      "OBJ_213" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_104";
-      };
-      "OBJ_214" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_105";
-      };
-      "OBJ_215" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_106";
-      };
-      "OBJ_216" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_107";
-      };
-      "OBJ_217" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_108";
-      };
-      "OBJ_218" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_109";
-      };
-      "OBJ_219" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_110";
       };
       "OBJ_22" = {
          isa = "PBXGroup";
@@ -905,88 +128,10 @@
          path = "Protocols";
          sourceTree = "<group>";
       };
-      "OBJ_220" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_111";
-      };
-      "OBJ_221" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_112";
-      };
-      "OBJ_222" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_113";
-      };
-      "OBJ_223" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_114";
-      };
-      "OBJ_224" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_115";
-      };
-      "OBJ_225" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_116";
-      };
-      "OBJ_226" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_117";
-      };
-      "OBJ_227" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_118";
-      };
-      "OBJ_228" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_119";
-      };
-      "OBJ_229" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_121";
-      };
       "OBJ_23" = {
          isa = "PBXFileReference";
          path = "Action.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_230" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_122";
-      };
-      "OBJ_231" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_123";
-      };
-      "OBJ_232" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_124";
-      };
-      "OBJ_233" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_125";
-      };
-      "OBJ_234" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_126";
-      };
-      "OBJ_235" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_127";
-      };
-      "OBJ_236" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_237"
-         );
-      };
-      "OBJ_237" = {
-         isa = "PBXBuildFile";
-         fileRef = "OpenCombine::COpenCombineHelpers::Product";
-      };
-      "OBJ_238" = {
-         isa = "PBXTargetDependency";
-         target = "OpenCombine::COpenCombineHelpers";
       };
       "OBJ_24" = {
          isa = "PBXGroup";
@@ -996,171 +141,6 @@
          name = "Tests";
          path = "";
          sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_240" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_241",
-            "OBJ_242"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_241" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_242" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_243" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_244"
-         );
-      };
-      "OBJ_244" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_130";
-      };
-      "OBJ_246" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_247",
-            "OBJ_248"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_247" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMe_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "ReduxMe";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "ReduxMe";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_248" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMe_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "ReduxMe";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "ReduxMe";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_249" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_250",
-            "OBJ_251",
-            "OBJ_252",
-            "OBJ_253",
-            "OBJ_254",
-            "OBJ_255",
-            "OBJ_256",
-            "OBJ_257"
-         );
       };
       "OBJ_25" = {
          isa = "PBXGroup";
@@ -1172,49 +152,6 @@
          path = "Tests/ReduxMeTests";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_250" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_251" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_252" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
-      };
-      "OBJ_253" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_16";
-      };
-      "OBJ_254" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
-      };
-      "OBJ_255" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
-      };
-      "OBJ_256" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_257" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
-      };
-      "OBJ_258" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_259",
-            "OBJ_260"
-         );
-      };
-      "OBJ_259" = {
-         isa = "PBXBuildFile";
-         fileRef = "OpenCombine::OpenCombine::Product";
-      };
       "OBJ_26" = {
          isa = "PBXGroup";
          children = (
@@ -1224,210 +161,10 @@
          path = "Implementation";
          sourceTree = "<group>";
       };
-      "OBJ_260" = {
-         isa = "PBXBuildFile";
-         fileRef = "OpenCombine::COpenCombineHelpers::Product";
-      };
-      "OBJ_261" = {
-         isa = "PBXTargetDependency";
-         target = "OpenCombine::OpenCombine";
-      };
-      "OBJ_262" = {
-         isa = "PBXTargetDependency";
-         target = "OpenCombine::COpenCombineHelpers";
-      };
-      "OBJ_264" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_265",
-            "OBJ_266"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_265" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.1"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_266" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.1"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_267" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_268"
-         );
-      };
-      "OBJ_268" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
       "OBJ_27" = {
          isa = "PBXFileReference";
          path = "StoreTests.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_270" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_271",
-            "OBJ_272"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_271" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_272" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_273" = {
-         isa = "PBXTargetDependency";
-         target = "ReduxMe::ReduxMeTests";
-      };
-      "OBJ_275" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_276",
-            "OBJ_277"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_276" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMeTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "ReduxMeTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_277" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/OpenCombine/Sources/COpenCombineHelpers/include"
-            );
-            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMeTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "ReduxMeTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_278" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_279",
-            "OBJ_280",
-            "OBJ_281",
-            "OBJ_282",
-            "OBJ_283",
-            "OBJ_284"
-         );
-      };
-      "OBJ_279" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
       };
       "OBJ_28" = {
          isa = "PBXGroup";
@@ -1442,62 +179,10 @@
          path = "Stubs";
          sourceTree = "<group>";
       };
-      "OBJ_280" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
-      };
-      "OBJ_281" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
-      };
-      "OBJ_282" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_31";
-      };
-      "OBJ_283" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_284" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
-      };
-      "OBJ_285" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_286",
-            "OBJ_287",
-            "OBJ_288"
-         );
-      };
-      "OBJ_286" = {
-         isa = "PBXBuildFile";
-         fileRef = "ReduxMe::ReduxMe::Product";
-      };
-      "OBJ_287" = {
-         isa = "PBXBuildFile";
-         fileRef = "OpenCombine::OpenCombine::Product";
-      };
-      "OBJ_288" = {
-         isa = "PBXBuildFile";
-         fileRef = "OpenCombine::COpenCombineHelpers::Product";
-      };
-      "OBJ_289" = {
-         isa = "PBXTargetDependency";
-         target = "ReduxMe::ReduxMe";
-      };
       "OBJ_29" = {
          isa = "PBXFileReference";
          path = "Stub+Action.swift";
          sourceTree = "<group>";
-      };
-      "OBJ_290" = {
-         isa = "PBXTargetDependency";
-         target = "OpenCombine::OpenCombine";
-      };
-      "OBJ_291" = {
-         isa = "PBXTargetDependency";
-         target = "OpenCombine::COpenCombineHelpers";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -1564,52 +249,21 @@
       "OBJ_34" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_35"
+            "ReduxMe::ReduxMe::Product",
+            "ReduxMe::ReduxMeTests::Product"
          );
-         name = "Dependencies";
+         name = "Products";
          path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_35" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_36",
-            "OBJ_40",
-            "OBJ_128",
-            "OBJ_129",
-            "OBJ_130"
-         );
-         name = "OpenCombine 0.8.0";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_36" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_37",
-            "OBJ_38"
-         );
-         name = "COpenCombineHelpers";
-         path = ".build/checkouts/OpenCombine/Sources/COpenCombineHelpers";
-         sourceTree = "SOURCE_ROOT";
+         sourceTree = "BUILT_PRODUCTS_DIR";
       };
       "OBJ_37" = {
          isa = "PBXFileReference";
-         path = "COpenCombineHelpers.cpp";
-         sourceTree = "<group>";
+         path = "__DerivedData";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_38" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_39"
-         );
-         name = "include";
-         path = "include";
-         sourceTree = "<group>";
-      };
-      "OBJ_39" = {
          isa = "PBXFileReference";
-         path = "COpenCombineHelpers.h";
+         path = "README.md";
          sourceTree = "<group>";
       };
       "OBJ_4" = {
@@ -1651,11 +305,99 @@
          name = "Release";
       };
       "OBJ_40" = {
-         isa = "PBXGroup";
-         children = (
+         isa = "XCConfigurationList";
+         buildConfigurations = (
             "OBJ_41",
-            "OBJ_42",
-            "OBJ_43",
+            "OBJ_42"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_41" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMe_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "ReduxMe";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "ReduxMe";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_42" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMe_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "ReduxMe";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "ReduxMe";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_43" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
             "OBJ_44",
             "OBJ_45",
             "OBJ_46",
@@ -1663,69 +405,32 @@
             "OBJ_48",
             "OBJ_49",
             "OBJ_50",
-            "OBJ_51",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64",
-            "OBJ_116",
-            "OBJ_117",
-            "OBJ_118",
-            "OBJ_119",
-            "OBJ_120",
-            "OBJ_126",
-            "OBJ_127"
+            "OBJ_51"
          );
-         name = "OpenCombine";
-         path = ".build/checkouts/OpenCombine/Sources/OpenCombine";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_41" = {
-         isa = "PBXFileReference";
-         path = "AnyCancellable.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_42" = {
-         isa = "PBXFileReference";
-         path = "AnyPublisher.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_43" = {
-         isa = "PBXFileReference";
-         path = "AnySubscriber.swift";
-         sourceTree = "<group>";
       };
       "OBJ_44" = {
-         isa = "PBXFileReference";
-         path = "Cancellable.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_11";
       };
       "OBJ_45" = {
-         isa = "PBXFileReference";
-         path = "Codable.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_13";
       };
       "OBJ_46" = {
-         isa = "PBXFileReference";
-         path = "CombineIdentifier.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_15";
       };
       "OBJ_47" = {
-         isa = "PBXFileReference";
-         path = "ConnectablePublisher.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_16";
       };
       "OBJ_48" = {
-         isa = "PBXFileReference";
-         path = "CurrentValueSubject.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
       };
       "OBJ_49" = {
-         isa = "PBXFileReference";
-         path = "CustomCombineIdentifierConvertible.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
       };
       "OBJ_5" = {
          isa = "PBXGroup";
@@ -1734,72 +439,83 @@
             "OBJ_7",
             "OBJ_24",
             "OBJ_34",
-            "OBJ_131",
-            "OBJ_136",
-            "OBJ_137"
+            "OBJ_37",
+            "OBJ_38"
          );
          path = "";
          sourceTree = "<group>";
       };
       "OBJ_50" = {
-         isa = "PBXFileReference";
-         path = "Future.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
       };
       "OBJ_51" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_52",
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56",
-            "OBJ_57",
-            "OBJ_58"
-         );
-         name = "Helpers";
-         path = "Helpers";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_23";
       };
       "OBJ_52" = {
-         isa = "PBXFileReference";
-         path = "FilterProducer.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_53" = {
-         isa = "PBXFileReference";
-         path = "Locking.swift";
-         sourceTree = "<group>";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
       };
       "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "PartialCompletion.swift";
-         sourceTree = "<group>";
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_55",
+            "OBJ_56"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_55" = {
-         isa = "PBXFileReference";
-         path = "ReduceProducer.swift";
-         sourceTree = "<group>";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
       };
       "OBJ_56" = {
-         isa = "PBXFileReference";
-         path = "SubjectSubscriber.swift";
-         sourceTree = "<group>";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-target",
+               "x86_64-apple-macosx10.10",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
       };
       "OBJ_57" = {
-         isa = "PBXFileReference";
-         path = "SubscriptionStatus.swift";
-         sourceTree = "<group>";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_58"
+         );
       };
       "OBJ_58" = {
-         isa = "PBXFileReference";
-         path = "Violations.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_59" = {
-         isa = "PBXFileReference";
-         path = "ImmediateScheduler.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
       };
       "OBJ_6" = {
          isa = "PBXFileReference";
@@ -1808,108 +524,131 @@
          sourceTree = "<group>";
       };
       "OBJ_60" = {
-         isa = "PBXFileReference";
-         path = "ObservableObject.swift";
-         sourceTree = "<group>";
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_61",
+            "OBJ_62"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_61" = {
-         isa = "PBXFileReference";
-         path = "PassthroughSubject.swift";
-         sourceTree = "<group>";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Debug";
       };
       "OBJ_62" = {
-         isa = "PBXFileReference";
-         path = "Published.swift";
-         sourceTree = "<group>";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+         };
+         name = "Release";
       };
       "OBJ_63" = {
-         isa = "PBXFileReference";
-         path = "Publisher.swift";
-         sourceTree = "<group>";
+         isa = "PBXTargetDependency";
+         target = "ReduxMe::ReduxMeTests";
       };
-      "OBJ_64" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_65",
+      "OBJ_65" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
             "OBJ_66",
-            "OBJ_67",
-            "OBJ_68",
+            "OBJ_67"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_66" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMeTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "ReduxMeTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_67" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            CLANG_ENABLE_MODULES = "YES";
+            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "ReduxMe.xcodeproj/ReduxMeTests_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "@loader_path/../Frameworks",
+               "@loader_path/Frameworks"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "ReduxMeTests";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_68" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
             "OBJ_69",
             "OBJ_70",
             "OBJ_71",
             "OBJ_72",
             "OBJ_73",
-            "OBJ_74",
-            "OBJ_75",
-            "OBJ_76",
-            "OBJ_77",
-            "OBJ_78",
-            "OBJ_79",
-            "OBJ_80",
-            "OBJ_81",
-            "OBJ_82",
-            "OBJ_83",
-            "OBJ_84",
-            "OBJ_85",
-            "OBJ_86",
-            "OBJ_87",
-            "OBJ_88",
-            "OBJ_89",
-            "OBJ_90",
-            "OBJ_91",
-            "OBJ_92",
-            "OBJ_93",
-            "OBJ_94",
-            "OBJ_95",
-            "OBJ_96",
-            "OBJ_97",
-            "OBJ_98",
-            "OBJ_99",
-            "OBJ_100",
-            "OBJ_101",
-            "OBJ_102",
-            "OBJ_103",
-            "OBJ_104",
-            "OBJ_105",
-            "OBJ_106",
-            "OBJ_107",
-            "OBJ_108",
-            "OBJ_109",
-            "OBJ_110",
-            "OBJ_111",
-            "OBJ_112",
-            "OBJ_113",
-            "OBJ_114",
-            "OBJ_115"
+            "OBJ_74"
          );
-         name = "Publishers";
-         path = "Publishers";
-         sourceTree = "<group>";
-      };
-      "OBJ_65" = {
-         isa = "PBXFileReference";
-         path = "Deferred.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_66" = {
-         isa = "PBXFileReference";
-         path = "Empty.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_67" = {
-         isa = "PBXFileReference";
-         path = "Fail.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_68" = {
-         isa = "PBXFileReference";
-         path = "GENERATED-Publishers.Encode.swift";
-         sourceTree = "<group>";
       };
       "OBJ_69" = {
-         isa = "PBXFileReference";
-         path = "GENERATED-Publishers.MapKeyPath.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
       };
       "OBJ_7" = {
          isa = "PBXGroup";
@@ -1921,54 +660,38 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_70" = {
-         isa = "PBXFileReference";
-         path = "Just.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
       };
       "OBJ_71" = {
-         isa = "PBXFileReference";
-         path = "Optional.Publisher.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
       };
       "OBJ_72" = {
-         isa = "PBXFileReference";
-         path = "Publishers.AllSatisfy.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_31";
       };
       "OBJ_73" = {
-         isa = "PBXFileReference";
-         path = "Publishers.AssertNoFailure.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
       };
       "OBJ_74" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Autoconnect.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
       };
       "OBJ_75" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Breakpoint.swift";
-         sourceTree = "<group>";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_76"
+         );
       };
       "OBJ_76" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Buffer.swift";
-         sourceTree = "<group>";
+         isa = "PBXBuildFile";
+         fileRef = "ReduxMe::ReduxMe::Product";
       };
       "OBJ_77" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Collect.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_78" = {
-         isa = "PBXFileReference";
-         path = "Publishers.CollectByCount.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_79" = {
-         isa = "PBXFileReference";
-         path = "Publishers.CompactMap.swift";
-         sourceTree = "<group>";
+         isa = "PBXTargetDependency";
+         target = "ReduxMe::ReduxMe";
       };
       "OBJ_8" = {
          isa = "PBXGroup";
@@ -1979,56 +702,6 @@
          name = "ReduxMe";
          path = "Sources/ReduxMe";
          sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_80" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Comparison.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_81" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Concatenate.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_82" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Contains.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_83" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Count.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_84" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Delay.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_85" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Drop.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_86" = {
-         isa = "PBXFileReference";
-         path = "Publishers.DropUntilOutput.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_87" = {
-         isa = "PBXFileReference";
-         path = "Publishers.DropWhile.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_88" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Filter.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_89" = {
-         isa = "PBXFileReference";
-         path = "Publishers.First.swift";
-         sourceTree = "<group>";
       };
       "OBJ_9" = {
          isa = "PBXGroup";
@@ -2041,118 +714,14 @@
          path = "Internal";
          sourceTree = "<group>";
       };
-      "OBJ_90" = {
-         isa = "PBXFileReference";
-         path = "Publishers.FlatMap.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_91" = {
-         isa = "PBXFileReference";
-         path = "Publishers.HandleEvents.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_92" = {
-         isa = "PBXFileReference";
-         path = "Publishers.IgnoreOutput.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_93" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Last.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_94" = {
-         isa = "PBXFileReference";
-         path = "Publishers.MakeConnectable.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_95" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Map.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_96" = {
-         isa = "PBXFileReference";
-         path = "Publishers.MapError.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_97" = {
-         isa = "PBXFileReference";
-         path = "Publishers.MeasureInterval.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_98" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Multicast.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_99" = {
-         isa = "PBXFileReference";
-         path = "Publishers.Output.swift";
-         sourceTree = "<group>";
-      };
-      "OpenCombine::COpenCombineHelpers" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_139";
-         buildPhases = (
-            "OBJ_142",
-            "OBJ_144",
-            "OBJ_146"
-         );
-         dependencies = (
-         );
-         name = "COpenCombineHelpers";
-         productName = "COpenCombineHelpers";
-         productReference = "OpenCombine::COpenCombineHelpers::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "OpenCombine::COpenCombineHelpers::Product" = {
-         isa = "PBXFileReference";
-         path = "COpenCombineHelpers.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OpenCombine::OpenCombine" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_148";
-         buildPhases = (
-            "OBJ_151",
-            "OBJ_236"
-         );
-         dependencies = (
-            "OBJ_238"
-         );
-         name = "OpenCombine";
-         productName = "OpenCombine";
-         productReference = "OpenCombine::OpenCombine::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "OpenCombine::OpenCombine::Product" = {
-         isa = "PBXFileReference";
-         path = "OpenCombine.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OpenCombine::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_240";
-         buildPhases = (
-            "OBJ_243"
-         );
-         dependencies = (
-         );
-         name = "OpenCombinePackageDescription";
-         productName = "OpenCombinePackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
       "ReduxMe::ReduxMe" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_246";
+         buildConfigurationList = "OBJ_40";
          buildPhases = (
-            "OBJ_249",
-            "OBJ_258"
+            "OBJ_43",
+            "OBJ_52"
          );
          dependencies = (
-            "OBJ_261",
-            "OBJ_262"
          );
          name = "ReduxMe";
          productName = "ReduxMe";
@@ -2166,26 +735,24 @@
       };
       "ReduxMe::ReduxMePackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_270";
+         buildConfigurationList = "OBJ_60";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_273"
+            "OBJ_63"
          );
          name = "ReduxMePackageTests";
          productName = "ReduxMePackageTests";
       };
       "ReduxMe::ReduxMeTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_275";
+         buildConfigurationList = "OBJ_65";
          buildPhases = (
-            "OBJ_278",
-            "OBJ_285"
+            "OBJ_68",
+            "OBJ_75"
          );
          dependencies = (
-            "OBJ_289",
-            "OBJ_290",
-            "OBJ_291"
+            "OBJ_77"
          );
          name = "ReduxMeTests";
          productName = "ReduxMeTests";
@@ -2199,9 +766,9 @@
       };
       "ReduxMe::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_264";
+         buildConfigurationList = "OBJ_54";
          buildPhases = (
-            "OBJ_267"
+            "OBJ_57"
          );
          dependencies = (
          );

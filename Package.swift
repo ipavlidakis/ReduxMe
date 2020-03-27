@@ -5,6 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "ReduxMe",
+<<<<<<< HEAD
+=======
+    platforms: [.iOS(.v13)],
+>>>>>>> master
     products: [
         .library(
             name: "ReduxMe",

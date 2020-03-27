@@ -8,6 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "ReduxMe",
+            type: .dynamic,
             targets: ["ReduxMe"]),
     ],
     dependencies: [],
